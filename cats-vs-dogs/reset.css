@@ -73,7 +73,69 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
-header { color:red;}
+
+
+
+
+
+
+
+
+
+header img{
+	
+	padding: 20px;
+	margin: 40px;
+	width: 300px;
+}
+
+
+nav a{ 	
+	padding: 10px;
+	margin: 30px;
+	width: 40px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color:black;
+	text-align: center;
+}
+
+
+
+article {
+	float:left;
+	margin:10px;
+	padding:10px;
+	width: 400px;
+}
+
+article img {
+	width:400px;
+	padding:10px;
+	margin:10px;
+}
+
+
+
+h1{
+	padding: 20px;
+	margin: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h2{
+	padding: 20px;
+	margin: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+footer{ text-align: center;
+		padding: 10px;
+		margin: 10px;
+		width: 700px;}
 
 
 
