@@ -53,4 +53,70 @@ table {
 
 /* END RESET */
 
+h1{
+	font-weight: bold;
+	font-size: 40px;
+	font-family: Helvetica;
+	margin: 10px 0px 5px 230px;
+	width: 600px;
+}
+h2{ 
+	text-align: right;
+	width: 200px;
+	margin: 0px 0px 20px 0px;
+	font-size: 14px;
+	font-family: Helvetica;
+}
+article{
+	float:left;
+	font-family: Helvetica;
+	font-size: 14px;
+	width: 450px;
+	padding: 1px;
+	margin: 0px 2px 5px 2px;
+}
+article nav{
+	text-align: center;
+}
+
+img{
+	padding: 30px;
+	margin: 40px;
+	width: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
