@@ -80,55 +80,54 @@ html[xmlns] .clearfix { display: block; }
 
 
 
-
+body {margin-left: 50px;}
 
 header img{
-	
-	padding: 20px;
+	padding: 20px 0px 20px 240px;
 	margin: 40px;
-	width: 300px;
+	width: 420px;
 }
 
 
 nav a{ 	
 	padding: 10px;
-	margin: 30px;
+	margin: 10px 0px 10px 50px;
 	width: 40px;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: bold;
 	color:black;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 
 
 article {
 	float:left;
-	margin:10px;
+	margin:20px;
 	padding:10px;
 	width: 400px;
 }
 
 article img {
 	width:400px;
-	padding:10px;
-	margin:10px;
+	
 }
 
 
 
 h1{
-	padding: 20px;
-	margin: 10px;
-	font-size: 20px;
+	padding: 20px 20px 20px 0px;
+	margin: 10px 10px 10px 0px;
+	font-size: 30px;
 	font-weight: bold;
 }
 
 h2{
-	padding: 20px;
-	margin: 10px;
-	font-size: 20px;
+	padding: 20px 20px 20px 0px;
+	margin: 10px 10px 10px 0px;
+	font-size: 30px;
 	font-weight: bold;
 }
 
