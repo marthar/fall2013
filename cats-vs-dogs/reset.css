@@ -88,7 +88,9 @@ header img{
 	width: 420px;
 }
 
-li{float:left;}
+li{float:left;
+	}
+nav{height: 80px;}
 
 nav a{ 	
 	padding: 10px;
@@ -102,11 +104,13 @@ nav a{
 	text-transform: uppercase;
 	border-bottom: 5px solid black;
 	border-top: 5px solid black;
+
 }
 
 
 
 article {
+
 	float:left;
 	margin:20px;
 	padding:10px;
