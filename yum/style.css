@@ -53,33 +53,62 @@ table {
 
 /* END RESET */
 
-h1{
+header{
+	position: relative;
+	height: 50px;
+}
+h1{	position: absolute;
+	top: 10px;
+	left:260px;
 	font-weight: bold;
 	font-size: 40px;
 	font-family: Helvetica;
-	margin: 10px 0px 5px 230px;
-	width: 600px;
 }
 h2{ 
+	position: absolute;
+	top:55px;
+	left: 20px;
 	text-align: right;
 	width: 200px;
 	margin: 0px 0px 20px 0px;
 	font-size: 14px;
 	font-family: Helvetica;
 }
-article{
-	float:left;
+section{
+	position: relative;
+	height: 100px;
+}
+#article-1{
+	position: absolute;
+	top: 80px;
+	left:10px;
 	font-family: Helvetica;
 	font-size: 14px;
 	width: 450px;
 	padding: 1px;
 	margin: 0px 2px 5px 2px;
 }
+#article-2{
+	position: absolute;
+	top: 80px;
+	left:430px;
+	font-family: Helvetica;
+	font-size: 14px;
+	width: 410px;
+	padding: 1px;
+	margin: 0px 2px 5px 2px;
+}
+
+
 article nav{
 	text-align: center;
 }
 
 img{
+	position: absolute;
+	top: 300px;
+	left: 0px;
+	clear: both;
 	padding: 30px;
 	margin: 40px;
 	width: 700px;
