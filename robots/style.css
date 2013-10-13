@@ -32,6 +32,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	position: relative; 
+    margin:80px; 
+    height:90px; 
 	line-height: 1;
 }
 ol, ul {
@@ -48,5 +51,123 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+#site-header h1 a {
+display:block;
+text-indent:-9999px;
+position:absolute;
+width:300px; height:80px;
+background:url (logo.png) no-repeat left top;
+}
+
+#site-wrapper{
+	position:relative;
+	height:120px;
+	background-color:beige;
+}
+
+header {
+	position:relative;
+	top:0px;
+	left:1000px;
+}
+
+
+
+#main-menu li {
+	float:left;
+	width:80px;
+	padding: 10px 0px 10px 0px;
+	margin: 10px 0px 10px 0px;
+}
+
+
+
+#main-menu li a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: helvetica;
+	font-size: 12px;
+}
+
+#main-menu {
+	position:relative;
+	height:55px;
+	background-color:rgb(107, 68, 29);
+}	
+
+#content-wrapper{
+	position:relative;
+	height:550px;
+}
+
+#page {
+	position:absolute;
+	top:50px;
+	left:200px;
+}
+#sidebar {
+	position:absolute;
+	top:50px;
+	left:700px;
+}
+article{float:left;
+	width:30%;
+	padding: 10px;
+	margin: 10px;
+
+}
+
+p{
+	font-family: helvetica;
+	font-size: 14px;
+	
+}
+h1{
+	padding-bottom: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: helvetica;
+	color:rgb(107, 68, 29);
+	text-transform: uppercase;
+}
+h2{	font-size: 20px;
+	font-weight: bold;
+	font-family: helvetica;
+	color:rgb(107, 68, 29);
+}
+h3{	font-size: 15px;
+	font-weight: bold;
+	font-family: helvetica;
+	color:beige;
+	padding: 10px 10px 10px 0px;
+	text-transform: uppercase;
+}
+
+#footer-wrapper{
+	position:relative;
+	clear: both;
+	height:150px;
+	background-color:#4f3a11;
+	}
+
+#footer-follow li{
+	float:left;
+}
+#footer-follow{
+position: absolute;
+	top:10px;
+	left:800px;
+	color: white;
+	}
+
+#footer-contact{
+	position:absolute;
+	top:10px;
+	left:220px;
+	width: 170px;
+	color: white;
 }
 
