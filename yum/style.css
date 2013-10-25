@@ -106,7 +106,7 @@ article nav{
 
 img{
 	position: absolute;
-	top: 300px;
+	top: 350px;
 	left: 0px;
 	clear: both;
 	padding: 30px;
@@ -114,8 +114,11 @@ img{
 	width: 700px;
 }
 
-
-
+.page {
+	position:absolute;
+	top:380px;
+	left:430px;
+}
 
 
 
