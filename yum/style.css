@@ -58,7 +58,7 @@ header{
 	height: 50px;
 }
 h1{	position: absolute;
-	top: 10px;
+	top: 30px;
 	left:260px;
 	font-weight: bold;
 	font-size: 40px;
@@ -66,7 +66,7 @@ h1{	position: absolute;
 }
 h2{ 
 	position: absolute;
-	top:55px;
+	top:75px;
 	left: 20px;
 	text-align: right;
 	width: 200px;
@@ -80,7 +80,7 @@ section{
 }
 #article-1{
 	position: absolute;
-	top: 80px;
+	top: 100px;
 	left:10px;
 	font-family: Helvetica;
 	font-size: 14px;
@@ -90,7 +90,7 @@ section{
 }
 #article-2{
 	position: absolute;
-	top: 80px;
+	top: 100px;
 	left:430px;
 	font-family: Helvetica;
 	font-size: 14px;
@@ -116,7 +116,7 @@ img{
 
 .page {
 	position:absolute;
-	top:380px;
+	top:400px;
 	left:430px;
 	text-decoration: none;
 }
