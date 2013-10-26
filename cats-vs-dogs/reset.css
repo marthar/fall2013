@@ -108,24 +108,27 @@ li{float:left;
 nav{
 	border-top: 5px solid black;
 	border-bottom: 5px solid black;
-	height: 60px;
+	height: 20px;
 	padding:10px;}
 
 nav li { 	
-	padding: 20px;
-	margin: 10px;
-	width: 10px;
-	text-decoration: none;
+	
 	font-size: 25px;
 	font-weight: bold;
 	color:black;
 	text-align: center;
 	text-transform: uppercase;
 	display:inline-block;
-
-
 }
 
+nav li a{
+	padding: 20px;
+	margin: 10px;
+	width: 10px;
+	text-decoration: none;
+	color:black;
+
+}
 
 
 article {
@@ -137,7 +140,7 @@ article {
 }
 
 article img {
-	width:200px;
+	width:400px;
 	
 }
 
@@ -158,12 +161,30 @@ h2{
 }
 
 footer{ 
+		border-top: 5px solid black;
 		clear: both; 
-		text-align: center;
-		padding: 10px;
-		margin: 10px;
-		width: 700px;
+		position:relative;
 	}
 
+h3{
+	position:absolute;
+	top:5px;
+	left:30px;
+}
 
+h3 a {
+	text-decoration: none;
+	color:red;
+}
+
+h4 {
+	position:absolute;
+	top:5px;
+	left:680px;
+}
+
+h4 a {
+	text-decoration: none;
+	color:red;
+}
 
