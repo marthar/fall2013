@@ -81,7 +81,7 @@ display:block;
 text-indent:-9999px;
 position:absolute;
 width:300px; height:80px;
-background:url (logo.png) no-repeat left top;
+background:url (dogsvscat-logo.gif) no-repeat left top;
 }
 
 
@@ -95,9 +95,10 @@ header {
 	text-align:center;
 }
 header h1 a{
-	position:absolute;
-	top:5px;
-	left:150px;	
+	text-indent:-9999px;
+width:300px; height:120px;
+background:url (logo.png) no-repeat left top;
+background-color: beige;
 	}
 
 li{float:left;
@@ -136,7 +137,7 @@ article {
 }
 
 article img {
-	width:400px;
+	width:200px;
 	
 }
 
