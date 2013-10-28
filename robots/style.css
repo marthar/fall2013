@@ -99,18 +99,24 @@ header {
 
 }
 
-
-
-#main-menu li {
-	float:left;
-	padding: 20px;
-	margin: 0px;
-}
-
 #content {
 	clear:left;
 	width:960px;
 }
+
+
+
+
+#main-menu ul {
+	padding-left: 200px;
+}
+
+#main-menu li {
+	float:left;
+	padding: 20px;
+
+}
+
 #menu-wrapper{
 	width:100%;
 	background-color:rgb(107, 68, 29);
@@ -125,11 +131,18 @@ header {
 }
 
 #main-menu {
-	margin:0 auto;
+
 	width:960px;
 	height:55px;
 	background-color:rgb(107, 68, 29);
 }	
+
+
+
+
+
+
+
 
 #content-wrapper{
 	position:relative;
@@ -137,14 +150,17 @@ header {
 }
 
 #page {
-	position:absolute;
-	top:50px;
-	left:200px;
+	float:left;
+	width: 400px;
+	padding:10px 10px 10px 210px;
+
+
 }
 #sidebar {
-	position:absolute;
-	top:50px;
-	left:700px;
+	float:left;
+	width: 200px;
+	padding:10px 10px 10px 90px;
+	
 }
 article{float:left;
 	width:400px;
