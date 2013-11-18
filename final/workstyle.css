@@ -110,6 +110,10 @@ header {
 	display: inline-block;
 }
 
+p{
+	font-family: georgia;
+}
+
 article{
 	float: left;
 	padding:20px;
@@ -117,7 +121,8 @@ article{
 } 
 article p{
 	color: white;
-	font-family: helvetica;
+	font-family: georgia;
+	line-height: 20px;
 	font-size: 16px;
 	
 }
