@@ -54,6 +54,7 @@ body{
 	background-color: grey;
 	margin: 0 auto;
 	width:100%;
+	display: inline-block;
 
 }
 
@@ -74,6 +75,7 @@ h3{
 	font-size: 25px;
 	font-family: helvetica;
 	color: white;
+	padding-bottom: 20px;
 }
 
 h4{
@@ -109,12 +111,21 @@ header {
 	display: inline-block;
 }
 
+section{
+	text-align: center;
+}
+
+article{
+	float:left;
+	padding:20px;
+	width:500px;
+	display: inline-block;
+}
 
 article p{
 	color: white;
-	float:left;
-	padding:20px;
-	width:400px;
+	font-family: helvetica;
+	font-size: 16px;
 }
 
 img{
@@ -135,7 +146,7 @@ aside nav{
 
 
 footer{
-	clear: all;
+	clear: both;
 	color: grey;
 	font-family: helvetica;
 	font-size: 12px;
@@ -145,13 +156,11 @@ footer{
 	text-align: center;
 }
 
+
 footer p{
 	display: inline-block;
 	padding-top: 5px;
 }
-
-
-
 
 
 
