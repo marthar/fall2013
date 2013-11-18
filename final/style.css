@@ -48,5 +48,76 @@ table {
 }
 
 
-/* END RESET/*
+/* END RESET*/
+
+body{
+	background-color: grey;
+
+}
+
+h1{
+	font-weight: bold;
+	font-size: 30px;
+	font-family: helvetica;
+	color: white;
+}
+}
+
+h2{
+	font-weight: bold;
+	font-size: 20px;
+	font-family: helvetica;
+	color: white;
+}
+}
+
+h3{
+	font-size: 17px;
+	font-family: helvetica;
+	color: white;
+}
+
+.main_nav ul li a{
+	float:left;
+	padding:10px;
+	margin: 10px;
+	font-size: 17px;
+	font-family: helvetica;
+	color:white;
+	text-decoration: none;
+}
+
+header .main_nav{
+	background-color: white;
+}
+
+section{
+	color: white;
+}
+
+img{
+	width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
