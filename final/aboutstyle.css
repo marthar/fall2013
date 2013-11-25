@@ -51,7 +51,7 @@ table {
 /* END RESET*/
 
 body{
-	background-color: grey;
+	background-color: gray;
 	margin: 0 auto;
 	width:100%;
 	display: inline-block;
@@ -59,27 +59,27 @@ body{
 }
 
 h1{
-	font-size: 40px;
+	font-size: 3em;
 	font-family: helvetica;
 	color: white;
 	display: inline-block;
 }
 
 h2{
-	font-size: 30px;
+	font-size: 2.5em;
 	font-family: helvetica;
 	color: white;
 }
 
 h3{
-	font-size: 25px;
+	font-size: 2em;
 	font-family: helvetica;
 	color: white;
 	padding-bottom: 20px;
 }
 
 h4{
-	font-size: 25px;
+	font-size: 2em;
 	font-family: helvetica;
 	color: white;
 }
@@ -103,7 +103,7 @@ header {
 	margin: 0px 10px 0px 10px;
 	font-size: 20px;
 	font-family: helvetica;
-	color:grey;
+	color:gray;
 	text-decoration: none;
 }
 
@@ -148,7 +148,7 @@ aside nav{
 
 footer{
 	clear: both;
-	color: grey;
+	color: gray;
 	font-family: helvetica;
 	font-size: 12px;
 	background-color: white;

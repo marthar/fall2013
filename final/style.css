@@ -58,26 +58,26 @@ body{
 }
 
 h1{
-	font-size: 40px;
+	font-size: 3em;
 	font-family: helvetica;
 	color: white;
 	display: inline-block;
 }
 
 h2{
-	font-size: 30px;
+	font-size: 2.5em;
 	font-family: helvetica;
 	color: white;
 }
 
 h3{
-	font-size: 25px;
+	font-size: 2em;
 	font-family: helvetica;
 	color: white;
 }
 
 h4{
-	font-size: 25px;
+	font-size: 1.2em;
 	font-family: helvetica;
 	color: white;
 }
@@ -99,9 +99,9 @@ header {
 	float:left;
 	padding:8px 30px 0px 30px;
 	margin: 0px 10px 0px 10px;
-	font-size: 20px;
+	font-size: 1.2em;
 	font-family: helvetica;
-	color:grey;
+	color:gray;
 	text-decoration: none;
 }
 
@@ -114,16 +114,26 @@ article p{
 	color: white;
 	float:left;
 	padding:20px;
-	width:400px;
+	width:30%;
 }
 
 img{
 	margin:10px;
-	width: 500px;
+	max-width: 30%;
+	overflow: hidden;
+
 }
 
+img {
+   -webkit-transition: webkit-filter 1s;
+     }
+ img:hover {
+  -webkit-filter: grayscale(100%); 
+     }
+
+
 aside nav{
-	font-size: 17px;
+	font-size: 1.5em;
 	font-family: helvetica;
 	color:white;
 	text-decoration: none;
@@ -136,9 +146,9 @@ aside nav{
 
 footer{
 	clear: all;
-	color: grey;
+	color: gray;
 	font-family: helvetica;
-	font-size: 12px;
+	font-size: .8em;
 	background-color: white;
 	height:20px;
 	margin-bottom: 20px;
