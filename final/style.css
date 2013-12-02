@@ -585,7 +585,7 @@ h4{
 
 .section_float{
 	position: absolute;
-	top:290px;
+	top:320px;
 	left: 4%;
 	width: 80%;
 }
@@ -617,7 +617,7 @@ h4{
 
 .section_float{
 	position: absolute;
-	top:300px;
+	top:370px;
 	left: 4%;
 	width: 80%;
 }
@@ -650,7 +650,7 @@ h4{
 
 .section_float{
 	position: absolute;
-	top:330px;
+	top:400px;
 	left: 4%;
 	width: 80%;
 }
@@ -682,7 +682,7 @@ h4{
 
 .section_float{
 	position: absolute;
-	top:360px;
+	top:430px;
 	left: 4%;
 	width: 80%;
 }
@@ -715,7 +715,7 @@ h4{
 
 .section_float{
 	position: absolute;
-	top:400px;
+	top:460px;
 	left: 4%;
 	width: 80%;
 }
@@ -749,7 +749,7 @@ h4{
 
 .section_float{
 	position: absolute;
-	top:440px;
+	top:490px;
 	left: 4%;
 	width: 80%;
 }
@@ -763,25 +763,29 @@ h4{
 
 @media screen and (max-width:600px) {
 
-.otherwork{
-	position: absolute;
-	top:80%;
-	left: 2%;
-}
-.section_float1{
-	width: 50%;
-}
 
-.section_float2{
+
+.section_float{
 	position: absolute;
-	top:470px;
+	top:520px;
 	left: 4%;
 	width: 80%;
 }
 
+.coverphotos a img{
+	
+	max-width: 45%;
+}
+
+}
+
+@media screen and (max-width:550px) {
+
+
+
 .section_float{
 	position: absolute;
-	top:470px;
+	top:550px;
 	left: 4%;
 	width: 80%;
 }
@@ -797,7 +801,7 @@ h4{
 
 .section_float{
 	position: absolute;
-	top:500px;
+	top:590px;
 	left: 4%;
 	width: 80%;
 }
@@ -813,7 +817,7 @@ h4{
 
 .section_float{
 	position: absolute;
-	top:540px;
+	top:635px;
 	left: 4%;
 	width: 80%;
 }
@@ -830,7 +834,7 @@ h4{
 
 .section_float{
 	position: absolute;
-	top:560px;
+	top:645px;
 	left: 4%;
 	width: 80%;
 }
@@ -848,7 +852,7 @@ h4{
 
 .section_float{
 	position: absolute;
-	top:620px;
+	top:635px;
 	left: 4%;
 	width: 80%;
 }
