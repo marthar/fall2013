@@ -127,15 +127,18 @@ color:rgb(140, 140, 140);
 /* Cover Photos */
 
 .coverphotos{
+	position: relative;
 	text-align: center;
 }
 
 .coverphotos a img{
+
 	display: inline-block;
 	margin:.5%;
 	max-width: 30%;
 	overflow: hidden;
 }
+
 
 
 
@@ -210,9 +213,10 @@ color:rgb(140, 140, 140);
 
 
 .header{
+	z-index: 100;
 	position:fixed;
 	width: 100%;
-	height: auto;
+	height: 160px;
 	background-color: rgb(80, 80, 80);
 }
 
@@ -840,6 +844,23 @@ h4{
 
 
 
+@media screen and (max-width:200px) {
+
+.section_float{
+	position: absolute;
+	top:620px;
+	left: 4%;
+	width: 80%;
+}
+
+.coverphotos a img{
+	
+	max-width: 45%;
+}
+
+}
+
+
 
 
 
@@ -854,21 +875,5 @@ h4{
 /* end of all wooooo */
 
 
-
-
-
-
-
- #slides {
-      display:none;
-    }
-
-
-$(function(){
-      $("#slides").slidesjs({
-        width: 940,
-        height: 528
-      });
-    });
 
 
