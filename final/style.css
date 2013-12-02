@@ -238,11 +238,7 @@ h4{
 
 /* Text on Work pages */
 
-article p{
-	color: white;
-	font-family: helvetica;
 
-}
 
 
 .otherwork{
@@ -296,6 +292,8 @@ article p{
 
 .mainarticle p{
 	font-size: 1em;
+	color: white;
+	font-family: helvetica;
 	line-height: 140%;
 }
 
@@ -370,6 +368,377 @@ article p{
 }
 
 
+
+
+
+
+
+
+
+
+
+/*****************   media queries   *************************/
+
+@media screen and (max-width:1600px) {
+
+
+
+.section_float1{
+	float: left;
+	width: 20%;
+	padding:1%;
+	position: fixed;
+	height: 25%;
+	left:1%;
+	top:25%;
+
+}
+
+.section_float2{
+	
+	width: 26%;
+	padding:1%;
+	position: fixed;
+	left:18%;
+	height: 25%;
+	top:25%;
+}
+
+.section_float{
+	float:right;
+	width:50%;
+	padding:3%;
+	margin-top: 10%;
+	
+}
+
+}
+
+
+@media screen and (max-width:1400px) {
+
+
+
+.section_float1{
+	float: left;
+	width: 20%;
+	padding:1%;
+	position: fixed;
+	height: 25%;
+	left:1%;
+	top:25%;
+
+}
+
+.section_float2{
+	
+	width: 26%;
+	padding:1%;
+	position: fixed;
+	left:21%;
+	height: 25%;
+	top:25%;
+}
+
+.section_float{
+	float:right;
+	width:45%;
+	padding:2%;
+	margin-top: 15%;
+	
+}
+
+}
+
+@media screen and (max-width:1200px) {
+
+
+.info p{
+	padding: 0% 0% 0% 0%;
+	font-size: .9em;
+	line-height: 140%;
+}
+
+.otherwork aside nav li a {
+	
+	font-size: .9em;
+	line-height: 140%;
+}
+
+.mainarticle p{
+	font-size: .9em;
+	line-height: 140%;
+}
+
+
+
+.info h4 {
+	font-size: 1.3em;
+	padding: 0% 0% 7% 0%;
+
+}
+
+.otherwork aside h4{
+	font-size: 1.3em;
+	padding: 30% 0% 7% 0%;
+}
+
+.mainarticle h4{
+	font-size: 1.3em;
+	padding: 0% 0% 5% 0%;
+
+}
+
+
+
+.section_float1{
+	float: left;
+	width: 30%;
+	padding:1%;
+	position: fixed;
+	height: 25%;
+	left:2%;
+	top:25%;
+
+}
+
+.section_float2{
+	
+	width: 30%;
+	padding:1%;
+	position: fixed;
+	left:2%;
+	height: 25%;
+	top:60%;
+}
+
+.section_float{
+	float:right;
+	width:60%;
+	padding:3%;
+	margin-top: 10%;
+	
+}
+
+}
+
+
+
+
+
+@media screen and (max-width:900px) {
+
+
+.info p{
+	padding: 0% 0% 0% 0%;
+	font-size: .8em;
+	line-height: 140%;
+}
+
+.otherwork aside nav li a {
+	
+	font-size: .8em;
+	line-height: 140%;
+}
+
+.mainarticle p{
+	font-size: .8em;
+	line-height: 140%;
+}
+
+
+
+.info h4 {
+	font-size: 1em;
+	padding: 0% 0% 7% 0%;
+
+}
+
+.otherwork aside h4{
+	font-size: 1em;
+	padding: 30% 0% 7% 0%;
+}
+
+.mainarticle h4{
+	font-size: 1em;
+	padding: 0% 0% 5% 0%;
+
+}
+
+
+
+.section_float1{
+	float: left;
+	width: 30%;
+	padding:1%;
+	position: fixed;
+	height: 25%;
+	left:2%;
+	top:25%;
+
+}
+
+.section_float2{
+	
+	width: 30%;
+	padding:1%;
+	position: fixed;
+	left:2%;
+	height: 26%;
+	top:60%;
+}
+
+.section_float{
+	float:right;
+	width:60%;
+	padding:3%;
+	margin-top: 20%;
+	
+}
+
+}
+
+
+
+@media screen and (max-width:600px) {
+
+
+.info p{
+	padding: 0% 0% 0% 0%;
+	font-size: .7em;
+	line-height: 140%;
+}
+
+.otherwork aside nav li a {
+	
+	font-size: .7em;
+	line-height: 140%;
+}
+
+.mainarticle p{
+	font-size: .7em;
+	line-height: 140%;
+}
+
+
+
+.info h4 {
+	font-size: 1em;
+	padding: 0% 0% 7% 0%;
+
+}
+
+.otherwork aside h4{
+	font-size: 1em;
+	padding: 30% 0% 7% 0%;
+}
+
+.mainarticle h4{
+	font-size: 1em;
+	padding: 0% 0% 5% 0%;
+	line-height: 130%;
+}
+
+
+
+.section_float1{
+	float: left;
+	width: 30%;
+	padding:1%;
+	position: fixed;
+	height: 25%;
+	left:2%;
+	top:25%;
+
+}
+
+.section_float2{
+	
+	width: 30%;
+	padding:1%;
+	position: fixed;
+	left:2%;
+	height: 26%;
+	top:60%;
+}
+
+.section_float{
+	float:right;
+	width:60%;
+	padding:3%;
+	margin-top: 20%;
+	
+}
+
+}
+
+
+@media screen and (max-width:450px) {
+
+
+.info p{
+	padding: 0% 0% 0% 0%;
+	font-size: .5em;
+	line-height: 140%;
+}
+
+.otherwork aside nav li a {
+	
+	font-size: .5em;
+	line-height: 140%;
+}
+
+.mainarticle p{
+	font-size: .5em;
+	line-height: 140%;
+}
+
+
+
+.info h4 {
+	font-size: .7em;
+	padding: 0% 0% 1% 0%;
+
+}
+
+.otherwork aside h4{
+	font-size: .7em;
+	padding: 30% 0% 1% 0%;
+}
+
+.mainarticle h4{
+	font-size: .7em;
+	padding: 0% 0% 3% 0%;
+	line-height: 130%;
+}
+
+
+
+.section_float1{
+	float: left;
+	width: 60%;
+	padding:1%;
+	position: fixed;
+	height: 25%;
+	left:2%;
+	top:30%;
+
+}
+
+.section_float2{
+	
+display: none;
+}
+
+.section_float{
+	float:right;
+	width:45%;
+	padding:3%;
+	margin-top: 35%;
+	
+}
+
+}
 
 
 
