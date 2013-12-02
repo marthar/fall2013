@@ -597,6 +597,10 @@ h4{
 	margin-top: 20%;
 	
 }
+.coverphotos a img{
+	
+	max-width: 45%;
+}
 
 }
 
@@ -671,6 +675,10 @@ h4{
 	margin-top: 20%;
 	
 }
+.coverphotos a img{
+	
+	max-width: 45%;
+}
 
 }
 
@@ -737,9 +745,12 @@ display: none;
 	width:45%;
 	padding:3%;
 	margin-top: 35%;
-	
-}
 
+}
+.coverphotos a img{
+	
+	max-width: 45%;
+}
 }
 
 @media screen and (max-width:200px) {
@@ -804,7 +815,16 @@ display: none;
 	width:45%;
 	padding:3%;
 	margin-top: 40%;
+}
+
+/* Cover Photos */
+
+
+
+.coverphotos a img{
 	
+	max-width: 50%;
+}
 }
 
 }
@@ -815,5 +835,19 @@ display: none;
 
 
 
+
+
+
+ #slides {
+      display:none;
+    }
+
+
+$(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 528
+      });
+    });
 
 
