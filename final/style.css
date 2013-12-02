@@ -740,6 +740,73 @@ display: none;
 
 }
 
+@media screen and (max-width:200px) {
+
+
+.info p{
+	padding: 0% 0% 0% 0%;
+	font-size: 1em;
+	line-height: 140%;
+}
+
+.otherwork aside nav li a {
+	
+	font-size: 1em;
+	line-height: 140%;
+}
+
+.mainarticle p{
+	font-size: 1em;
+	line-height: 140%;
+}
+
+
+
+.info h4 {
+	font-size: 1em;
+	padding: 0% 0% 1% 0%;
+
+}
+
+.otherwork aside h4{
+	font-size: 1em;
+	padding: 30% 0% 1% 0%;
+}
+
+.mainarticle h4{
+	font-size: 1em;
+	padding: 0% 0% 3% 0%;
+	line-height: 130%;
+}
+
+
+
+.section_float1{
+	float: left;
+	width: 60%;
+	padding:1%;
+	position: fixed;
+	height: 25%;
+	left:2%;
+	top:30%;
+
+}
+
+.section_float2{
+	
+display: none;
+}
+
+.section_float{
+	float:right;
+	width:45%;
+	padding:3%;
+	margin-top: 35%;
+	
+}
+
+}
+
 
 /* end of all wooooo */
 
