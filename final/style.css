@@ -126,12 +126,13 @@ color:rgb(140, 140, 140);
 
 /* Cover Photos */
 
-.coverphotos{
+#coverphotos{
 	position: relative;
 	text-align: center;
 }
+img{background-color: white;}
 
-.coverphotos a img{
+#coverphotos a img{
 
 	display: inline-block;
 	margin:.5%;
@@ -139,8 +140,14 @@ color:rgb(140, 140, 140);
 	overflow: hidden;
 }
 
+#coverphotos img{
+	opacity: 1.0;
+}
 
+#coverphotos img:hover{
+	opacity: 0.8;
 
+}
 
 
 
