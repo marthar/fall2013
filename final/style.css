@@ -141,11 +141,12 @@ img{background-color: white;}
 }
 
 #coverphotos img{
-	opacity: 1.0;
+	opacity: 0.8;
 }
 
 #coverphotos img:hover{
-	opacity: 0.8;
+	opacity: 1.0;
+
 
 }
 
@@ -170,7 +171,6 @@ footer p{
 	padding-top: .3%;
 	padding-bottom: .3%;
 }
-
 
 
 
@@ -355,36 +355,23 @@ h4{
 
 /*about page*/
 
-
-
-.aboutimage{
-	float:left;
-	
+body{
+margin:auto;
 }
-
-
-.aboutinfo{
-	float:left;
-	width: 35%;
-	
-	
-}
-
-.aboutinfo p{
-	color: white;
-	font-family: helvetica;
+.section article p{
+	color:white;
 	font-size: 1em;
-	line-height: 140%;
+	font-family: helvetica;
+
 }
 
+.section{
+	text-align: center;
+}
 
-
-
-
-
-
-
-
+.words{
+	padding-bottom: 2%;
+}
 
 
 /*****************   media queries   *************************/
