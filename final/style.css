@@ -319,45 +319,34 @@ h4{
 
 /*about page*/
 
-body{
-margin:auto;
-}
-.section article p{
-	color:black;
-	font-size: 1em;
-	font-family: helvetica;
-
-}
-
-.section{
-
-}
-
-.words{
-		float: left;
-	width: 50%;
+.section_float3{
+	float: left;
+	width: 17%;
 	padding:1%;
 	position: fixed;
 	height: 25%;
 	left:4%;
-	top:138px;
+	top:100px;
 
-	
 }
 
-.pic{
+.section_float4{
+	float: left;
+	width: 27%;
+	padding:1%;
+	position: fixed;
+	left:24%;
+	height: 26%;
+	top:100px;
+}
 
+
+.section_float5{
 	float:right;
-	width:50%;
-	padding:5%;
-	left: 37.5%;
-	margin-top: 2%;
+	width:45%;
+	padding-top: 70px;
+	padding-right: 0%;
 }
-
-
-
-
-
 
 
 
