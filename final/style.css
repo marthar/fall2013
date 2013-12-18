@@ -312,10 +312,10 @@ iframe{
 
 .section_float2{
 	float: left;
-	width: 25%;
+	width: 27%;
 	padding:1%;
 	position: fixed;
-	left:18%;
+	left:24%;
 	height: 26%;
 	top:100px;
 }
@@ -323,7 +323,7 @@ iframe{
 .section_float{
 	
 	float:right;
-	width:45%;
+	width:40%;
 	padding-top: 70px;
 	padding-right: 5%;
 }
@@ -408,6 +408,199 @@ iframe{
 	color:rgb(140, 140, 140);
 }
 
+
+
+
+
+/*****************   media queries   *************************/
+@media screen and (max-width:1180px) {
+
+/* Cover Photos */
+
+#coverphotos a img{
+
+	max-width: 42%;
+}
+
+#coverphotos{
+
+	top:95px;
+}
+
+
+.header{
+	height:70px;
+	background-color: white;
+	opacity: 1;
+	z-index: 100;
+}
+
+header h1{
+	top:50%;
+	font-size: 1.2em;
+	left:7%;
+	font-weight: bold;
+	font-family: helvetica;
+}
+
+/* Header Nav */
+
+
+.main_nav{
+	position: absolute;
+	left:90%;
+	top:40%;
+	width: 100%;
+
+}
+
+.main_nav ul li{
+	font-size: .9em;
+	padding-right: 5%;
+}
+
+.section_float1{
+	width: 40%;
+	padding:1%;
+	position: relative;
+	left:6%;
+	top:80px;
+
+}
+
+.otherwork aside h4{
+	font-size: .9em;
+	font-weight: bold;
+	padding: 10% 0% 5% 0%;}
+
+.section_float2{
+
+	width: 85%;
+	padding:1%;
+	position: relative;
+	left:6%;
+	height: 26%;
+	top:100px;
+}
+
+.mainarticle h4{
+	font-size: 1em;
+}
+
+.mainarticle p{
+	font-size: .8em;
+}
+
+.section_float{
+	width:85%;
+	position: relative;
+	padding-right: 8%;
+	padding-top: 140px;
+	}
+
+.work_images{
+}
+
+
+
+
+
+.section_float3{
+	width: 85%;
+	padding:1%;
+	position: relative;
+	left:6%;
+	top:80px;
+
+}
+
+.section_float4{
+	width: 85%;
+	padding:1%;
+	position: relative;
+	left:6%;
+	height: 26%;
+	top:100px;
+}
+
+
+.section_float5{
+	float:right;
+	width:85%;
+	padding-top: 120px;
+	padding-right: 8%;
+}
+
+
+.info2 p{
+
+	font-size: .78em;
+	font-family: helvetica;
+	line-height: 140%;
+	color:black;
+}
+
+.info2 p a{
+	color:black;
+	text-decoration: none;
+}
+
+.info2 p a:hover{
+	color:rgb(140, 140, 140);
+}
+
+.info2 h4 {
+	font-family: helvetica;
+	font-size: .9em;
+	font-weight: bold;
+	padding: 0% 0% 2% 0%;
+
+}
+
+.findme a {
+	font-family: helvetica;
+	font-size: .78em;
+	line-height: 140%;
+	text-decoration: none;
+	color:black;
+	
+
+}
+
+.findme h4{
+	font-size: .9em;
+	font-weight: bold;
+	padding: 5% 0% 2% 0%;
+}
+
+.findme a:hover{
+	color:rgb(140, 140, 140);
+}
+
+
+footer{
+	left:7%;
+}
+
+}
+
+
+
+
+@media screen and (max-width:1390px) {
+
+.main_nav{
+	position: absolute;
+	left:30%;
+	top:55%;
+	width: 100%;
+
+}
+
+.main_nav ul li{
+	font-size: .9em;
+	padding-right: 5%;
+}
 
 
 /*****************   media queries   *************************/
