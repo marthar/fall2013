@@ -280,7 +280,7 @@ h4{
 .mainarticle p a{
 	text-decoration: none;
 	color: black;
-	
+
 }
 
 .mainarticle p a:hover{
@@ -295,7 +295,8 @@ h4{
 }
 
 iframe{
-	padding-bottom: 1%;
+	padding-top: 3%;
+	
 
 }
 
