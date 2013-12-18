@@ -80,7 +80,7 @@ body{
 	position: relative;
 	height: auto;
 	text-align: center;
-	top:100px;
+	top:70px;
 	height: 50%;
 }
 
@@ -142,7 +142,7 @@ footer p{
 	z-index: 100;
 	position:fixed;
 	width: 100%;
-	height: 100px;
+	height: 70px;
 	background-color: white;
 	opacity: .9;
 
@@ -151,7 +151,7 @@ footer p{
 header h1{
 	position: relative;
 	top:47%;
-	font-size: 1.8em;
+	font-size: 1.4em;
 	left:5%;
 	font-weight: bold;
 	font-family: helvetica;
@@ -176,7 +176,7 @@ header h1{
 }
 
 .main_nav ul li a{
-	font-size: 1.5em;
+	font-size: 1.1em;
 	font-family: helvetica;
 	color:black;
 	text-decoration: none;
@@ -219,7 +219,7 @@ h4{
 
 .otherwork aside nav li a {
 	font-family: helvetica;
-	font-size: 1em;
+	font-size: .78em;
 	line-height: 140%;
 	text-decoration: none;
 	color:black;
@@ -228,9 +228,9 @@ h4{
 }
 
 .otherwork aside h4{
-	font-size: 1.2em;
+	font-size: .9em;
 	font-weight: bold;
-	padding: 30% 0% 3% 0%;
+	padding: 30% 0% 5% 0%;
 }
 
 .otherwork aside nav li a:hover{
@@ -241,15 +241,15 @@ h4{
 
 
 .info {
-	padding: 0% 0% 0% 0%;
-	font-size: 1em;
+
+	font-size: .78em;
 	font-family: helvetica;
 	line-height: 140%;
 	color:black;
 }
 
 .info h4 {
-	font-size: 1.2em;
+	font-size: 1.1em;
 	font-weight: bold;
 	padding: 0% 0% 5% 0%;
 
@@ -259,14 +259,14 @@ h4{
 
 
 .mainarticle h4{
-	font-size: 1.5em;
+	font-size: 1.1em;
 	font-weight: bold;
 	padding: 0% 0% 3% 0%;
 
 }
 
 .mainarticle p{
-	font-size: 1.2em;
+	font-size: .9em;
 	color: black;
 	font-family: helvetica;
 	line-height: 140%;
@@ -293,7 +293,7 @@ h4{
 	position: fixed;
 	height: 25%;
 	left:4%;
-	top:138px;
+	top:100px;
 
 }
 
@@ -304,16 +304,14 @@ h4{
 	position: fixed;
 	left:18%;
 	height: 26%;
-	top:138px;
+	top:100px;
 }
 
 .section_float{
 	float:right;
-	width:50%;
-	padding-top: 100px;
-
-	
-	
+	width:45%;
+	padding-top: 70px;
+	padding-right: 5%;
 }
 
 
