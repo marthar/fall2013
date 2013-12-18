@@ -53,9 +53,11 @@ table {
 
 
 body{
+	padding: 0;
+	margin: 0;
 	background-color: white;
 	width: 100%;
-	position: relative;
+
 
 }
 
@@ -78,10 +80,11 @@ body{
 
 #coverphotos{
 	position: relative;
-	height: auto;
+	height: 100%;
 	text-align: center;
 	top:70px;
 	height: 50%;
+
 }
 
 #coverphotos a img{
@@ -108,18 +111,21 @@ body{
 /* Footer all pages */
 
 footer{
+	bottom:0;
 	clear: both;
 	margin-top:.3%;
 	margin-bottom: 1.5%;
 	color: black;
 	font-family: helvetica;
 	font-size: .8em;
-	background-color: white;
-	text-align: center;
+
+	position:relative;
+	left:5%;
 
 }
 
 footer p{
+
 	clear: both;
 	display: inline-block;
 	padding-top: 2%;
@@ -139,7 +145,6 @@ footer p{
 
 
 .header{
-	z-index: 100;
 	position:fixed;
 	width: 100%;
 	height: 70px;
@@ -240,7 +245,7 @@ h4{
 
 
 
-.info {
+.info p{
 
 	font-size: .78em;
 	font-family: helvetica;
@@ -249,7 +254,7 @@ h4{
 }
 
 .info h4 {
-	font-size: 1.1em;
+	font-size: .9em;
 	font-weight: bold;
 	padding: 0% 0% 5% 0%;
 
@@ -274,6 +279,7 @@ h4{
 
 
 .work_images img{
+
 	max-width: 100%;
 	padding-bottom: 1%;	
 
@@ -308,6 +314,7 @@ h4{
 }
 
 .section_float{
+	
 	float:right;
 	width:45%;
 	padding-top: 70px;
@@ -346,6 +353,23 @@ h4{
 	width:45%;
 	padding-top: 70px;
 	padding-right: 0%;
+}
+
+
+.info2 p{
+
+	font-size: .78em;
+	font-family: helvetica;
+	line-height: 140%;
+	color:black;
+	text-decoration: none;
+}
+
+.info2 h4 {
+	font-size: .9em;
+	font-weight: bold;
+	padding: 0% 0% 5% 0%;
+
 }
 
 
