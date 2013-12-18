@@ -470,6 +470,7 @@ header h1{
 .otherwork aside nav li a {
 	line-height: 140%;
 }
+
 .info{display: none;}
 
 .section_float2{
@@ -577,7 +578,9 @@ header h1{
 }
 
 
-
+footer{
+	left:6%;
+}
 
 }
 
