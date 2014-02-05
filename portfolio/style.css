@@ -260,7 +260,7 @@ h4{
 
 
 .mainarticle h4{
-	font-size: 1.1em;
+	font-size: .9em;
 	font-weight: bold;
 	padding: 0% 0% 3% 0%;
 
@@ -522,6 +522,9 @@ header h1{
 	top:100px;
 
 }
+.otherwork{
+	padding-top: 5px;
+}
 
 .otherwork aside h4{
 	font-size: .9em;
@@ -535,11 +538,11 @@ header h1{
 	position: relative;
 	left:6%;
 	height: 26%;
-	top:100px;
+	top:120px;
 }
 
 .mainarticle h4{
-	font-size: 1em;
+	font-size: .9em;
 
 }
 
