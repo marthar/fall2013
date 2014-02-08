@@ -58,11 +58,17 @@ body{
     top:30%;
     left:30%;
     -webkit-transition: -webkit-transform 5s ease-in-out;
+    -moz-transition: -webkit-transform 5s ease-in-out;
+    -ms-transition: -webkit-transform 5s ease-in-out;
+    -o-transition: -webkit-transform 5s ease-in-out;
 }
 
 
 .superman:hover{
     -webkit-transform: rotate(5turn) scale(2);
+    -moz-transform: rotate(5turn) scale(2);
+    -ms-transform: rotate(5turn) scale(2);
+    -o-transform: rotate(5turn) scale(2);
 
 }
 
@@ -164,8 +170,6 @@ body{
         top:-50px;
         left:-45px;
         z-index:3;	
-	webkit-transform: rotate(-20deg);
-	transform-origin:bottom right;
 }
 
 .leftpart{
