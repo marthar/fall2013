@@ -48,6 +48,11 @@ table {
 }
 
 /* Add Styles Here */
+
+body{
+    background-color: lightblue;
+}
+
 .superman{
     position: absolute;
     top:30%;
