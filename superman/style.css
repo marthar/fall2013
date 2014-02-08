@@ -48,6 +48,24 @@ table {
 }
 
 /* Add Styles Here */
+.superman{
+    position: absolute;
+    top:30%;
+    left:30%;
+    -webkit-transition: -webkit-transform 5s ease-in-out;
+}
+
+
+.superman:hover{
+    -webkit-transform: rotate(5turn) scale(2);
+
+}
+
+
+
+
+
+
 
 
 
@@ -58,8 +76,8 @@ table {
     border-width: 0 45px 50px 45px;
     height: 0;
     width: 230px;
-    left:-4px;
-    top:-4px;
+    left:3px;
+    top:5px;
     position: relative;
     margin: 0px 0 0px 0px;
 }
