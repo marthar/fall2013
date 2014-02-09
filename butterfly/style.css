@@ -107,8 +107,8 @@ table {
  
  .antenna{
  	position:relative;
-        top:100px;
-        left:324px;
+        top:105px;
+        left:332px;
  	width:5px;
         height:10px;
 	border-left:1px solid black;
@@ -122,8 +122,8 @@ table {
  
  .antenna2{
  	position:relative;
-        top:88px;
-        left:315px;
+        top:93px;
+        left:323px;
  	width:5px;
         height:10px;
 	border-left:1px solid transparent;
