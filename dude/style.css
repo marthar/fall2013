@@ -1,0 +1,275 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Add Styles Here */
+
+
+
+.whole_body{
+    position:absolute;
+    top:10%;
+    left:20%;
+}
+
+
+.head{
+position:absolute;
+top:40px;
+left:40px;
+}
+
+.hair{
+    background: black;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:10px;
+    left:90px;
+    text-align: center;
+    z-index:-1;
+}
+.hair:before, .hair:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: 150px;
+    background: black;
+}
+.hair:before {
+    -webkit-transform: rotate(30deg);
+       -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+         -o-transform: rotate(30deg);
+}
+.hair:after {
+    -webkit-transform: rotate(60deg);
+       -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+         -o-transform: rotate(60deg);
+}
+
+
+
+.face{
+	position:absolute;
+        left:78px;
+        top:0px;
+        height:200px;
+        width:170px;
+        border-radius:90px 90px 90px 90px;
+        background-color: teal;
+        border:3px solid black;
+
+
+}
+
+
+.eyebrow{
+	position:absolute;
+        top:45px;
+        left:70px;
+        width:120px;
+        height:20px;
+	background-color:transparent;
+        border-bottom:15px solid black;
+        
+        border-radius:20px 20px 20px 20px;
+
+}
+
+.smile{
+	position:absolute;
+        top:140px;
+        left:100px;
+        width:50px;
+        height:30px;
+        border-bottom:5px solid black;
+        border-radius:100%
+}
+
+.smile:after{
+	content:"";
+        position:absolute;
+        background-color:red;
+        top:28px;
+        left:38px;
+        width:10px;
+        height:20px;
+        border-radius:10px 10px 90px 90px;
+        border-bottom:2px solid black;
+        border-right:2px solid black;
+        border-left:2px solid black;
+        -webkit-transform: rotate(-25deg);
+        }
+
+.eye{
+	position:absolute;
+        left:70px;
+        top:70px;
+        height:70px;
+        width:65px;
+        border-radius:80%;
+        background-color: white;
+        border:3px solid black;
+        }
+        
+ .eye:after{
+ 	content:"";
+	position:absolute;
+        left:59px;
+        top:-3px;
+        height:70px;
+        width:65px;
+        border-radius:80%;
+        background-color: white;
+        border:3px solid black;
+        }
+.eyeball{
+    position:absolute;
+        left:85px;
+        top:90px;
+        height:20px;
+        width:15px;
+        border-radius:100%;
+        background-color: black;
+        
+
+}
+
+.eyeball:after{
+    content:"";
+    position:absolute;
+        left:60px;
+        top:0px;
+        height:20px;
+        width:15px;
+        border-radius:100%;
+        background-color: black;
+        
+
+}
+
+
+.arm{
+	width:30px;
+        height:60px;
+        background-color:teal;
+        border-radius:0px 0px 90px 90px;
+        border-right:3px solid black;
+        border-left:3px solid black;
+        border-bottom:3px solid black;
+        position:absolute;
+        top:200px;
+        left:260px;
+        -webkit-transform: rotate(-35deg);
+        }
+        
+
+.arm2{
+	width:30px;
+        height:60px;
+        background-color:teal;
+        border-radius:0px 0px 90px 90px;
+        border-right:3px solid black;
+        border-left:3px solid black;
+        border-bottom:3px solid black;
+        position:absolute;
+        top:200px;
+        left:120px;
+        -webkit-transform: rotate(25deg);
+        z-index:-2;
+        }
+        
+        
+.leg{
+	width:30px;
+        height:80px;
+        background-color:teal;
+        border-radius:0px 0px 90px 90px;
+        border-right:3px solid black;
+        border-left:3px solid black;
+        border-bottom:20px solid black;
+        position:absolute;
+        top:230px;
+        left:160px;
+        -webkit-transform: rotate(10deg);
+        z-index:-2;
+}
+        
+.leg2{
+	width:30px;
+        height:80px;
+        background-color:teal;
+        border-radius:0px 0px 90px 90px;
+        border-right:3px solid black;
+        border-left:3px solid black;
+        border-bottom:20px solid black;
+        position:absolute;
+        top:230px;
+        left:210px;
+        -webkit-transform: rotate(-10deg);
+        z-index:-2;
+}        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
