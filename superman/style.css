@@ -50,30 +50,66 @@ table {
 /* Add Styles Here */
 
 body{
+    width:960px;
+    height:auto;
     background-color: lightblue;
+    -webkit-animation:change 1s infinite; /* Safari and Chrome */
+    
 }
+
+
+/* Define the keyframe */
+@-webkit-keyframes change {
+   0% {background-color:red; }
+   20% {background-color:yellow; }
+   40% {background-color:blue; }
+   60% {background-color:red; }
+   80% {background-color:yellow; }
+   100% {background-color:blue; }
+}
+
+
 
 .superman{
     position: absolute;
     top:30%;
     left:30%;
-    -webkit-transition: -webkit-transform 5s ease-in-out;
-    -moz-transition: -webkit-transform 5s ease-in-out;
-    -ms-transition: -webkit-transform 5s ease-in-out;
-    -o-transition: -webkit-transform 5s ease-in-out;
+    -webkit-transition: -webkit-transform 2s ease-in-out;
+    -moz-transition: -webkit-transform 2s ease-in-out;
+    -ms-transition: -webkit-transform 2s ease-in-out;
+    -o-transition: -webkit-transform 2s ease-in-out;
 }
 
 
 .superman:hover{
-    -webkit-transform: rotate(5turn) scale(2);
-    -moz-transform: rotate(5turn) scale(2);
-    -ms-transform: rotate(5turn) scale(2);
-    -o-transform: rotate(5turn) scale(2);
+    -webkit-transform: rotate(10turn) scale(2);
+    -moz-transform: rotate(10turn) scale(2);
+    -ms-transform: rotate(10turn) scale(2);
+    -o-transform: rotate(10turn) scale(2);
 
 }
 
 
+/* Define the keyframe */
+@-webkit-keyframes slide {
+   0% { -webkit-transform: translate(0px, 0px,); }
+   20% { -webkit-transform: translate(200px, 300px); }
+   40% { -webkit-transform: translate(-310px, -50px) scale(2);}
+   50% { -webkit-transform: translate(110px, 200px) rotate(-180); }
+   60% { -webkit-transform: translate(800px, -90px) rotate(180deg); }
+   80%  { -webkit-transform: translate(225px, 600px) rotate(-180deg); }
+   100% {  -webkit-transform: translate(450px, 0); }
+}
 
+/* This is the element that we apply the animation to. */
+.superman {
+   -webkit-animation-name: slide;
+   -webkit-animation-duration: 5s;
+   -webkit-animation-timing-function: ease; /* default ease, (also: linear) */
+   -webkit-animation-delay: 1s;             /* default 0 */
+   -webkit-animation-iteration-count: infinite;    /* default 1 (also: infinite) */
+   -webkit-animation-direction: alternate;  /* default normal */
+}
 
 
 
