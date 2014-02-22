@@ -52,7 +52,7 @@ table {
 body{
     width:960px;
     height:auto;
-    background-color: lightblue;
+    background-color: red;
     -webkit-animation:change 1s infinite; /* Safari and Chrome */
     
 }
