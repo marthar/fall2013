@@ -1,0 +1,99 @@
+
+<div id='road'>
+
+
+<div id='car'>
+<div id='wheel1' class='wheel'></div>
+<div id='wheel2' class='wheel'></div>
+</div>
+</div> 
+
+<style>
+@-webkit-keyframes road-move {
+  0% { background-position: 0px; }
+  100% { background-position: 6000px; }
+}
+
+#road{
+  background: url("http://cykod.github.io/Web2Spring2013/images/back.jpg");
+  height: 200px;
+  width: 100%;
+  -webkit-animation:road-move 4s linear infinite;
+  position:absolute;
+  overflow:hidden;
+}
+
+.wheel {
+  background: url("http://cykod.github.io/Web2Spring2013/images/tire.png");
+  width: 60px;
+  height: 60px;
+}
+
+#wheel1{
+  position:absolute;
+  top:150px;
+  left:55px;
+}
+
+#wheel2{
+  position:absolute;
+  top:150px;
+  left:290px;
+}
+
+
+#car {
+  background: url("http://cykod.github.io/Web2Spring2013/images/car.png") no-repeat 0px 80px;
+  width: 400px;
+  height: 200px;
+  position:absolute;
+  top:-20px;
+  left:100%;
+
+}
+
+
+/* Define the keyframe */
+@-webkit-keyframes move {
+   0% { left:100%; }
+   50%  { left:50%; }
+   100% {  left:-100%; }
+}
+
+
+#car {
+  -webkit-animation: move 5s ease 1s infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Define the keyframe */
+@-webkit-keyframes spin {
+   0% { -webkit-transform: translate(0,0) rotate(360deg); }
+  
+   
+}
+
+
+.wheel {
+  -webkit-animation: spin 1s linear 1s infinite;
+}
+
+
+
+
+
+
+
+
+
+</style>

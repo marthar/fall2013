@@ -208,10 +208,23 @@ left:40px;
         border-bottom:3px solid black;
         position:absolute;
         top:200px;
-        left:260px;
+        left:230px;
         -webkit-transform: rotate(-35deg);
         }
-        
+               
+/* Define the keyframe */
+@-webkit-keyframes move {
+   0% { -webkit-transform: rotate(25deg);}
+   50%  { -webkit-transform: rotate(0deg); }
+   100% {  -webkit-transform: rotate(-25deg); }
+}
+
+/* This is the element that we apply the animation to. */
+
+.arm {
+  -webkit-animation: move 1s linear 1s infinite alternate;
+  -webkit-transform-origin: 50% 0;
+}  
 
 .arm2{
 	width:30px;
@@ -223,15 +236,30 @@ left:40px;
         border-bottom:3px solid black;
         position:absolute;
         top:200px;
-        left:120px;
+        left:140px;
         -webkit-transform: rotate(25deg);
         z-index:-2;
         }
         
-        
+    /* Define the keyframe */
+@-webkit-keyframes move2 {
+   0% { -webkit-transform: rotate(-25deg);}
+   50%  { -webkit-transform: rotate(0deg); }
+   100% {  -webkit-transform: rotate(25deg); }
+}
+
+/* This is the element that we apply the animation to. */
+
+.arm2 {
+  -webkit-animation: move2 1s linear 1s infinite alternate;
+  -webkit-transform-origin: 50% 0;
+}  
+
+
+
 .leg{
 	width:30px;
-        height:80px;
+        height:100px;
         background-color:teal;
         border-radius:0px 0px 90px 90px;
         border-right:3px solid black;
@@ -239,14 +267,14 @@ left:40px;
         border-bottom:20px solid black;
         position:absolute;
         top:230px;
-        left:160px;
+        left:165px;
         -webkit-transform: rotate(10deg);
         z-index:-2;
 }
         
 .leg2{
 	width:30px;
-        height:80px;
+        height:100px;
         background-color:teal;
         border-radius:0px 0px 90px 90px;
         border-right:3px solid black;
@@ -254,18 +282,42 @@ left:40px;
         border-bottom:20px solid black;
         position:absolute;
         top:230px;
-        left:210px;
+        left:200px;
         -webkit-transform: rotate(-10deg);
         z-index:-2;
 }        
         
         
         
+/* Define the keyframe */
+@-webkit-keyframes walk {
+   0% { -webkit-transform: rotate(25deg);}
+   50%  { -webkit-transform: rotate(0deg); }
+   100% {  -webkit-transform: rotate(-25deg); }
+}
+
+/* This is the element that we apply the animation to. */
+
+.leg {
+  -webkit-animation: walk 1s linear 1s infinite alternate;
+  -webkit-transform-origin: 50% 0;
+}        
         
         
         
-        
-        
+/* Define the keyframe */
+@-webkit-keyframes walkright {
+   0% { -webkit-transform: rotate(-25deg);}
+   50%  { -webkit-transform: rotate(0deg); }
+   100% {  -webkit-transform: rotate(25deg); }
+}
+
+/* This is the element that we apply the animation to. */
+
+.leg2 {
+  -webkit-animation: walkright 1s linear 1s infinite alternate;
+  -webkit-transform-origin: 50% 0;
+}        
         
         
         
