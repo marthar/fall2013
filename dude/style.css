@@ -53,9 +53,37 @@ table {
 
 .whole_body{
     position:absolute;
-    top:10%;
-    left:20%;
+   
 }
+
+
+/* Define the keyframe */
+@-webkit-keyframes walking {
+   0% { -webkit-transform: translate(1600px, 100px)scale(.5);
+    }
+   50%  { -webkit-transform: translate(500px, 100px)scale(1.5);
+   }
+   100% {  -webkit-transform: translate(-800px, 100px) scale(2);
+    }
+}
+
+/* This is the element that we apply the animation to. */
+
+.whole_body {
+  -webkit-animation: walking 10s linear 1s infinite ;
+  -webkit-transform-origin: 50% 0;
+}  
+
+
+
+
+
+.whole_body:hover {
+  -webkit-animation-play-state: paused;
+    background-color: #014a2a;
+}  
+            
+
 
 
 .head{
@@ -95,6 +123,7 @@ left:40px;
         -ms-transform: rotate(60deg);
          -o-transform: rotate(60deg);
 }
+
 
 
 
@@ -181,8 +210,36 @@ left:40px;
         border-radius:100%;
         background-color: black;
         
-
 }
+
+/* Define the keyframe */
+@-webkit-keyframes bounce2 {
+   0% { -webkit-transform: translate(-10px, 20px);
+    background-color:red;}
+   50%  { -webkit-transform: translate(10deg);
+   background-color:purple; }
+   100% {  -webkit-transform: translate(15px, 10px);
+   background-color:blue;  }
+}
+
+/* This is the element that we apply the animation to. */
+
+.eyeball {
+  -webkit-animation: bounce2 1s linear 1s infinite alternate;
+  -webkit-transform-origin: 50% 0;
+}  
+
+
+.eyeball:hover {
+  -webkit-animation-play-state: paused;
+    background-color: black;
+}  
+            
+
+            
+
+
+
 
 .eyeball:after{
     content:"";
@@ -193,9 +250,33 @@ left:40px;
         width:15px;
         border-radius:100%;
         background-color: black;
-        
-
 }
+
+/* Define the keyframe */
+@-webkit-keyframes bounce {
+   0% { -webkit-transform: translate(15px, -10px);
+   background-color:red;}
+   50%  { -webkit-transform: translate(-3px, 10px);
+   background-color:purple; }
+   100% {  -webkit-transform: translate(5px, -3px);
+   background-color:blue;
+    }
+}
+
+/* This is the element that we apply the animation to. */
+
+.eyeball:after {
+  -webkit-animation: bounce 1s linear 1s infinite alternate;
+  -webkit-transform-origin: 50% 0;
+}  
+
+.eyeball:after:hover {
+  -webkit-animation-play-state: paused;
+    background-color: black;
+}  
+
+
+
 
 
 .arm{
@@ -226,6 +307,14 @@ left:40px;
   -webkit-transform-origin: 50% 0;
 }  
 
+.arm:hover {
+  -webkit-animation-play-state: paused;
+    
+}  
+
+
+
+
 .arm2{
 	width:30px;
         height:60px;
@@ -253,6 +342,12 @@ left:40px;
 .arm2 {
   -webkit-animation: move2 1s linear 1s infinite alternate;
   -webkit-transform-origin: 50% 0;
+}  
+
+
+.arm2:hover {
+  -webkit-animation-play-state: paused;
+    
 }  
 
 
@@ -303,6 +398,11 @@ left:40px;
   -webkit-transform-origin: 50% 0;
 }        
         
+.leg:hover {
+  -webkit-animation-play-state: paused;
+    
+}  
+
         
         
 /* Define the keyframe */
@@ -319,7 +419,11 @@ left:40px;
   -webkit-transform-origin: 50% 0;
 }        
         
-        
+       
+.leg2:hover {
+  -webkit-animation-play-state: paused;
+    
+}   
         
         
         
