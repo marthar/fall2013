@@ -76,12 +76,13 @@ body{
 	text-align: center;
 	top:70px;
 	height: 50%;
+	padding-bottom: 2%;
 
 }
 
 #coverphotos a img{
 
-
+	border-radius: 5%;
 	display: inline-block;
 	margin:.5%;
 	max-width: 29.2%;
