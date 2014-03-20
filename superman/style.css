@@ -61,10 +61,7 @@ body{
 /* Define the keyframe */
 @-webkit-keyframes change {
    0% {background-color:red; }
-   20% {background-color:yellow; }
-   40% {background-color:blue; }
-   60% {background-color:red; }
-   80% {background-color:yellow; }
+   50% {background-color:yellow; }
    100% {background-color:blue; }
 }
 
