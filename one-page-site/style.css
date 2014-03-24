@@ -105,25 +105,26 @@ header h2 {
 
 .about{
 	font-family: helvetica;
-	font-size: 1em;
+	font-size: .9em;
 	position: absolute;
-	top:190px;
+	top:200px;
 	left: 15%;
 	width: 35%;
 	height: 300px;
+	line-height: 20px;
 }
 
 .nav {
 	
 	position: absolute;
-	top:220px;
+	top:240px;
 	left: 60%;
 	
 
 }
 
 .bottom-nav {
-	border-top: 2px solid black;
+	
 	padding-top: 20px;
 	clear: both;
 	padding-left: 60%;
@@ -216,9 +217,42 @@ footer p{
 
 
 
+.images2{
+	width: 40%;
+	padding-top: 10%;
+	padding-left: 10%;
 
+}
 
+.words{
+	position: absolute;
+	top: 400px;
+	left: 60%;
+	font-family: helvetica;
+	font-size: 2em;
+	letter-spacing: 1px;
+	line-height: 40px;
+}
 
+.words2{
+	position: absolute;
+	top: 500px;
+	left: 60%;
+	font-family: helvetica;
+	font-size: .9em;
+	line-height: 20px;
+	width: 30%;
+}
+
+.cart{
+	position: absolute;
+	top: 640px;
+	left: 60%;
+	font-family: helvetica;
+	font-size: .9em;
+	line-height: 20px;
+	width: 30%;
+}
 
 
 
