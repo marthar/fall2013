@@ -83,7 +83,15 @@ header h2 {
 	
 }
 
+.border{
+	height: 10%;
+	border-bottom: 2px solid black;
+}
 
+
+.images{
+	text-align: center;
+}
 
 .logo{
 	position:absolute;
@@ -96,7 +104,8 @@ header h2 {
 }
 
 .about{
-
+	font-family: helvetica;
+	font-size: 1em;
 	position: absolute;
 	top:190px;
 	left: 15%;
@@ -105,18 +114,20 @@ header h2 {
 }
 
 .nav {
+	
 	position: absolute;
 	top:220px;
 	left: 60%;
-	width: 30%;
-	height: 300px;
+	
 
 }
 
 .bottom-nav {
-	position: relative;
-	height: 50px;
-	left: 60%;
+	border-top: 2px solid black;
+	padding-top: 20px;
+	clear: both;
+	padding-left: 60%;
+	height: 80px;
 	
 
 }
@@ -137,22 +148,36 @@ ul{
 
 
 .main-page article img {
+	padding-left: 1%;
+	padding-right: 1%;
 
-	width: 20%;
+	width: 100%;
 
 
 
 }
 
 .main-page{
-	padding-top: 10%;
-	padding-left: 15%;
-	padding-bottom: 8%;
+	
 }
 
 
+.images{
+	float: left;
+	width: 32%;
+	font-family: helvetica;
+	line-height: 20px;
+	font-weight: bold;
+	padding-bottom: 2%;
+}
 
+.earrings{
 
+	padding-top: 100px;
+	padding-right: 10%;
+	padding-left: 10%;
+
+}
 
 
 
