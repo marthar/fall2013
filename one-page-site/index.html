@@ -4,6 +4,8 @@
 	<script src="http://code.jquery.com/jquery-1.11.0.js"></script>
       <script src='earrings.js'></script>
       <script src='application.js'></script>
+
+    <script src="https://checkout.stripe.com/checkout.js"></script>
 	<meta charset="UTF-8">
 	<title>Dangles&amp;Bangles</title>
 	<link rel="stylesheet" type="text/css" href="style.css" media="screen">
@@ -22,6 +24,9 @@
 	<h1>Dangles<br>Bangles</h1>
 	
 	</section>
+
+	<div id='cart'><div>Total Cost:</div> Cart Empty
+     </div>
 </header>
 
 	<section class="about">
@@ -73,6 +78,7 @@
       <img id='detail-image' src='images/blue1.jpg' alt='blue'/>
     </div>
 
+<div id="float">
       <p id='detail-description'>
         Curabitur urna tellus, aliquam vitae, ultrices eget, vehicula nec, diam.
           blandit venenatis, arcu dolor molestie dolor, vitae congue orci risus a.
@@ -81,11 +87,13 @@
     
       <div class='clear'></div>
 
-     <div id='cart'>
+     
+      <div id='detail-options'>
+      	<div id='cart'>
       <div id='detail-price'>
         $24.94
       </div>
-      <div id='detail-options'>
+
         Quantity: 
         <select id='detail-quantity'>
           <option value='1'>1</option>
@@ -97,6 +105,8 @@
       </div>
   </div>
     </div>
+
+</div>
 
 
 

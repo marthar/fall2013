@@ -153,15 +153,33 @@ header h2 {
   padding:5px;
 }
 
-#cart{
-	padding-top: 10%;
+header div{
+	float: left;
 }
+
+header #cart{
+	width:150px;
+	position: absolute;
+	top:115px;
+	right: 190px;
+	padding: 10px;
+	margin: 2px;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+
+}
+
+#float{
+	float: left;
+	width: 45%;
+}
+
 
 #detail-description{
   font-family: helvetica;
   font-size: .9em;
-  width:45%;
-  float:left;
+  width:100%;
   padding-top:40px;
   padding-left:5%;
 }
@@ -169,14 +187,28 @@ header h2 {
 #detail-price {
   font-size:24px;
   font-weight:bold;
-  float:left;
-  padding-left: 5%;
+  float: left;
 
 }
 
+#float #cart{
+	padding-left: 5%;
+	padding-top: 10%;
+}
+
 #detail-options {
-	padding-right: 9%;
+	padding-right: 4%;
   text-align:right;
+}
+
+#add-to-cart{
+	width:120px;
+	padding: 5px;
+	margin: 2px;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+
 }
 
 
@@ -285,6 +317,7 @@ footer h5{
 }
 footer p{
 	font-family: helvetica;
+	font-weight: normal;
 	color: white;
 }
 
@@ -326,15 +359,7 @@ footer p{
 	width: 30%;
 }
 
-.cart{
-	position: absolute;
-	top: 640px;
-	left: 60%;
-	font-family: helvetica;
-	font-size: .9em;
-	line-height: 20px;
-	width: 30%;
-}
+
 
 
 
