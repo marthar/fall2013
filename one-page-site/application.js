@@ -36,7 +36,7 @@ function updateCart(){
 		total += itemPrice;
 	}
 
-	$("#cart").text("Total Cost" + ":" + " " + "$" + total)
+	$("#cart").text("Cart" + ":" + " " + "$" + total)
 }
 
 

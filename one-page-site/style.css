@@ -49,7 +49,11 @@ table {
 
 /* Add Styles Here */
 
-
+@font-face
+{
+font-family: 'Quicksand-Regular';
+src: url(Quicksand-Regular.otf);
+}
 
 
 /* Header */
@@ -57,28 +61,29 @@ table {
 header{
 	position: relative;
 	height: 160px;
-	background-color: gray;
+	background-color: rgb(174, 72, 120);
 	width: 100%;
 }
 
 header h1 {
-	font-family: helvetica;
-	font-size: 2em;
-	font-style: bold;
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
+	font-size: 3em;
+	top:-50px;
 	position: absolute;
+	color: white;
 
 
 }
 
 header h2 {
-	font-family: helvetica;
-	font-size: 9em;
-	font-style: bold;
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
+	font-size: 7em;
+	
 	position: absolute;
 	color:white;
 	position: absolute;
-	top:-63px;
-	left:-50px;
+	top:-55px;
+	left:200px;
 	
 	
 }
@@ -124,7 +129,7 @@ header h2 {
   bottom:0px;
   margin:auto;
   width:80%;
-  height:60%;
+  height:80%;
   background-color:white;
   padding:5% 5%;
   border-radius:0px;
@@ -143,7 +148,7 @@ header h2 {
 #detail-title {
 
   font-size:30px;
-  font-family: helvetica;
+  font-family: 'Quicksand-Regular', helvetica, sans-serif;
 }
 
 #detail-image {
@@ -158,15 +163,16 @@ header div{
 }
 
 header #cart{
-	width:150px;
+	width:140px;
 	position: absolute;
 	top:115px;
-	right: 190px;
+	right: 195px;
 	padding: 10px;
 	margin: 2px;
 	background-color: white;
 	border-radius: 10px;
 	text-align: center;
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
 
 }
 
@@ -177,7 +183,7 @@ header #cart{
 
 
 #detail-description{
-  font-family: helvetica;
+  font-family: 'Quicksand-Regular', helvetica, sans-serif;
   font-size: .9em;
   width:100%;
   padding-top:40px;
@@ -213,7 +219,7 @@ header #cart{
 
 
 .about{
-	font-family: helvetica;
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
 	font-size: .9em;
 	position: absolute;
 	top:200px;
@@ -249,7 +255,7 @@ header{
 
 
 li{
-	font-family: helvetica;
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
 	float:left;
 	padding-right: 30px;
 	
@@ -275,7 +281,7 @@ li{
 	cursor:pointer;
 	float: left;
 	width: 32%;
-	font-family: helvetica;
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
 	line-height: 20px;
 	font-weight: bold;
 	padding-bottom: 2%;
@@ -301,7 +307,7 @@ li{
 
 
 footer{
-	background-color: gray;
+	background-color: rgb(174, 72, 120);
 	clear: both;
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -310,13 +316,14 @@ footer{
 }
 
 footer h5{
-	font-size: 1.2em;
+	font-size: 1em;
 	font-style: bold;
-	font-family: helvetica;
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
 	color: white;
 }
 footer p{
-	font-family: helvetica;
+	font-size: .9em;
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
 	font-weight: normal;
 	color: white;
 }
