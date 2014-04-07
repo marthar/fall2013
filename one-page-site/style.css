@@ -135,6 +135,27 @@ header h2 {
   border-radius:0px;
 }
 
+#quan{
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
+	
+
+}
+
+#detail-price{
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
+
+}
+
+#detail-quantity{
+
+	color:black;
+	padding: 20px;
+	margin-bottom: 5px;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;	
+}
+
 .details img{
 	width: 100%;
 }
