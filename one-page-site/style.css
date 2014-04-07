@@ -121,6 +121,7 @@ header h2 {
 }
 
 .details {
+
   display: none;
   position:fixed;
   left:0px;
@@ -157,6 +158,7 @@ header h2 {
 }
 
 .details img{
+
 	width: 100%;
 }
 
@@ -221,11 +223,12 @@ header #cart{
 
 #float #cart{
 	padding-left: 5%;
-	padding-top: 10%;
+	padding-top: %;
 }
 
 #detail-options {
-	padding-right: 4%;
+	padding-top: 100px;
+
   text-align:right;
 }
 
@@ -262,7 +265,7 @@ header #cart{
 
 .bottom-nav {
 	
-	padding-top: 20px;
+	padding-top: 25px;
 	clear: both;
 	padding-left: 60%;
 	height: 80px;
@@ -315,8 +318,8 @@ li{
 
 
 .earrings{
-
-	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-top: 150px;
 	padding-right: 10%;
 	padding-left: 10%;
 
