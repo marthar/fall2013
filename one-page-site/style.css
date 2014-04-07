@@ -209,6 +209,7 @@ header #cart{
   width:100%;
   padding-top:40px;
   padding-left:5%;
+  line-height: 20px;
 }
 
 #detail-price {
