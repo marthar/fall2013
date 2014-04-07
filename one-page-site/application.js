@@ -1,3 +1,5 @@
+var total = 0;
+
 // Write our base functions
 function showProduct(name){
 		var earring= Earrings[name];
@@ -27,11 +29,12 @@ function addItem(name, quantity){
 var cart = {};
 
 function updateCart(){
-	var total = 0;
+	total = 0;
 
 	for(var itemName in cart) {
 		var earring= Earrings[itemName];
 		var quantity = cart[itemName];
+		var price = earring.price;
 		var itemPrice= earring.price*quantity;
 		total += itemPrice;
 	}
@@ -49,22 +52,30 @@ function hideProduct(){
 }
 
 
-
+$('.inner').text('itemPrice')
     
 function checkOut() {
 
   var stripeKey = 'pk_test_V0SJ6QOh3rXO9s6Ysw0eHzzE';
 
   var description = $("#cart").text();
-  var amount = updateCart() * 100;
+  var amount = total * 100;
 
   var handler = StripeCheckout.configure({
     key: stripeKey,
     image: 'http://www.astutegraphics.com/images/blog/tutorials/widthscribe_patterns_18_mar_2013/floral-seamless-pattern.png',
     token: function(token, args) {
-      
+    
     }
   });
+
+
+
+
+
+
+
+
 
 
 

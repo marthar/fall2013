@@ -148,7 +148,7 @@ header h2 {
 }
 
 #detail-quantity{
-
+	cursor:pointer;
 	color:black;
 	padding: 20px;
 	margin-bottom: 5px;
@@ -196,7 +196,15 @@ header #cart{
 	border-radius: 10px;
 	text-align: center;
 	font-family: 'Quicksand-Regular', helvetica, sans-serif;
+	cursor: pointer;
+}
 
+#add-to-cart{
+	cursor: pointer;
+}
+
+#cart p{
+	cursor: pointer;
 }
 
 #float{
@@ -224,6 +232,7 @@ header #cart{
 #cart2{
 	padding-left: 5%;
 	padding-top: 1%;
+
 }
 
 #detail-options {
