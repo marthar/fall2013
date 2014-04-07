@@ -18,7 +18,7 @@ var Earrings = {
 
   blue3: {
     title: "Dew Drops",
-    price: 300,
+    price: 130,
     image: "images/blue3.jpg",
     description:  "These spectacular Dew Drops are sure to set your look apart from the others. This exquisite style, shimering with a blue diamond and embraced in white gold, can accompany that fancy dress you have always wanted to wear. For the full effect, try wearing your hair up for the night, allowing the earrings to glisten and show off as you wear them."
   },
