@@ -58,7 +58,7 @@ body{
 
 
 .shot{
-	padding-left: 5.5%;
+padding-left: 5.5%;
 width:26%;
 background-color:white;
 float: left;
@@ -66,8 +66,28 @@ font-size: .8em;
 padding-top: 3%;
 padding-bottom: 3%;
 
+
 }
 
+.alien{
+font-family: helvetica;
+
+}
+
+.name{
+font-family: helvetica;	
+font-size: 1.5em;
+text-transform: uppercase;
+padding-bottom: 1%;
+padding-top: 1%;
+}
+
+#detail{
+	text-align: center;
+	
+padding-top: 10%;
+padding-bottom: 10%;
+}
 
 
 

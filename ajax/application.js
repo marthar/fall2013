@@ -3,27 +3,28 @@
     $.getJSON("http://api.dribbble.com/shots/popular?callback=?",function(data) {
       console.log(data);
   
+    var shot, image, title, author;
 
       for(var i=0;i<data.shots.length;i++) {
 
 
 
-        var shot= $("<div class='shot'>")
+        shot= $("<div class='shot'>")
 
-        var image = $("<img class='image'>").attr('src', data.shots[i].image_teaser_url);
+        image = $("<img class='image'>").attr('src', data.shots[i].image_teaser_url);
         $(shot).append(image)
 
-        var title= $("<div class='title'>").text(data.shots[i].title)
+        title= $("<div class='title'>").text(data.shots[i].title)
         $(shot).append(title)
 
-        var author= $("<div class='author'>").text(data.shots[i].player.name)
+        author= $("<div class='author'>").text(data.shots[i].player.name)
         $(shot).append(author)
 
         $("#images").append(shot);
 
 
         createShot(data.shots[i]);
-      }
+     }
 
 
 
@@ -31,10 +32,16 @@
       function createShot(create) {
 
       shot.on("click",function() {
-        var img = $("<img>").attr("src",create.image_url);
-        $("#detail").empty().append(img);
+
+        var alien= $("<div class='alien'>").text(create.player.name)
+        var name= $("<div class='name'>").text(create.title)
+        var img = $("<img class='img'>").attr("src",create.image_url);
+        $("#detail").empty().append(img, name, alien);
+
+        window.scrollTo(0,0);
         
       });
+      
     }
        
 
