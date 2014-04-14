@@ -89,6 +89,12 @@ padding-top: 10%;
 padding-bottom: 10%;
 }
 
+p{
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: helvetica;
+}
 
 
 .title{
