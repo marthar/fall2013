@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>D3 Test</title>
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    </head>
+    <body>
+        
+
+
+
+        <script>
+            
+            function renderGraph(ourData) {
+                console.log(ourData);
+                
+
+                var svg = d3.select("body").append("svg")
+                                            .attr("width",960)
+                                            .attr("height",500);
+
+                var xScale = d3.scale.linear(),
+                 yScale = d3.scale.linear();
+
+                var maxFollowers = d3.max(ourData, function(d) { return d.followers_count }),
+                 maxShots = d3.max(ourData, function(d) { return d.shots_count });
+
+
+                xScale.range([50, 960])
+                      .domain([0, maxFollowers])
+
+                yScale.range([450, 0])
+                      .domain([ 0, maxShots])
+
+
+
+
+
+
+
+                svg.selectAll("circle")
+                    .data(ourData)
+                    .enter()
+                    .append("circle")
+                    .attr("r",5)
+                    .attr("cx",function(d) {return xScale(d.followers_count); })
+                    .attr("cy",function(d) {return yScale(d.shots_count); });
+
+
+
+                    var xAxis = d3.svg.axis()
+                    .scale(xScale)
+                    .orient("bottom")
+
+                    svg.append("g")
+                    .attr("transform","translate(0,450)")
+                    .call(xAxis);
+
+                    var yAxis = d3.svg.axis()
+                    .scale(yScale)
+                    .orient("left")
+
+                    svg.append("g")
+                    .attr("class", "axis")
+                    .attr("transform","translate(50,0)")
+                    .call(yAxis);
+
+
+
+
+
+
+
+
+
+
+                //var divs = d3.select("body").selectAll("img");
+
+                //divs.data(ourData)
+                    //.enter()
+                    
+                    //.append("img")
+                    //.attr('src',function(player) {return player.avatar_url;}   );
+
+
+
+}
+
+
+//.append("div")
+//.text(function(player) {return player.username;});
+        </script>
+
+        <script src='http://design-trends.herokuapp.com/players.js?limit=100&order=followers_count&fields=followers_count,shots_count,following_count,username&callback=renderGraph'></script>
+    </body>
+</html>     
+
+
+
