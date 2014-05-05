@@ -4,6 +4,42 @@
         <meta charset="utf-8">
         <title>D3 Test</title>
         <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    
+<style>
+.axis path,
+.axis line {
+
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+
+
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+
+}
+
+.tooltip{
+    background-color: rgb(120,200, 244);
+    opacity: .9;
+    outline: 1px solid lightgrey;
+    padding:1%;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: helvetica;
+    
+}
+
+
+
+</style>
+
+
     </head>
     <body>
         
@@ -11,6 +47,9 @@
 
 
         <script>
+
+
+
             
             function renderGraph(ourData) {
                 console.log(ourData);
@@ -19,6 +58,7 @@
                 var svg = d3.select("body").append("svg")
                                             .attr("width",960)
                                             .attr("height",500);
+                                            
 
                 var xScale = d3.scale.linear(),
                  yScale = d3.scale.linear();
@@ -37,15 +77,41 @@
 
 
 
+var tooltip = d3.select("body")
+    .append("div")
+    .style("position", "absolute")
+    .style("z-index", "10")
+    .style("visibility", "hidden")
+    .attr("class","tooltip")
+    .text("a simple tooltip");
 
 
                 svg.selectAll("circle")
+                    .attr("class","circle")
                     .data(ourData)
                     .enter()
                     .append("circle")
-                    .attr("r",5)
+                    .attr("r",4)
                     .attr("cx",function(d) {return xScale(d.followers_count); })
-                    .attr("cy",function(d) {return yScale(d.shots_count); });
+                    .attr("cy",function(d) {return yScale(d.shots_count); })
+                    
+
+
+        .on("mouseover", function(d){   
+            return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px")
+            .style("visibility","visible")
+            .style(".circle","green")
+
+
+            .html("Username: " + d.username + "<br>" +
+                  "Total Photos: " + d.shots_count + "<br>" +
+                  "Total Followers: " + d.followers_count + "<br>" +
+                  "Total Following: " + d.following_count)
+                  
+
+            })
+
+
 
 
 
@@ -54,6 +120,7 @@
                     .orient("bottom")
 
                     svg.append("g")
+                    .attr("class", "axis")
                     .attr("transform","translate(0,450)")
                     .call(xAxis);
 
@@ -65,7 +132,6 @@
                     .attr("class", "axis")
                     .attr("transform","translate(50,0)")
                     .call(yAxis);
-
 
 
 
