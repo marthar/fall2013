@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile Menu Hamburger</title>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
+    <!--Using jQuery and jQuery UI for display effects-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+
+    <!--Using the hamburger menu display code-->
+    <script src="hamburger.js"></script>
+
+    <!--Using Media Queries, if the viewport is smaller than 700px use another stylesheet-->
+    <link rel="stylesheet" type="text/css" media="all" href="style.css"/>
+
+    <script src="unslider.min.js"></script>
+
+</head>
+
+<body>
+
+<!--This wrapping container is used to get the width of the whole content-->
+<div id="container">
+
+    <!--The Hamburger Button in the Header-->
+    <header>
+        <div id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+
+    <!--The mobile navigation Markup hidden via css-->
+    <nav>
+        <ul>
+            <li><a class="blue" href="index.html">Home</a></li>
+            <li><a class="white" href="destinations.html">Destinations</a></li>
+            <li><a class="white" href="interests.html">Interests</a></li>
+            <li><a class="white" href="blogs.html">Blogs</a></li>
+        </ul>
+    </nav>
+
+    <!--The Layer that will be layed over the content
+    so that the content is unclickable while menu is shown-->
+    <div id="contentLayer"></div>
+
+    <!--The content of the site-->
+    <div id="content">
+
+
+             <div class="banner">
+            <ul>
+                 <li class="gridbanner"><figure class="effect-sadie"><img class="imgbanner" alt="1" src="images/image20.jpg"/>
+                    <figcaption>
+                            <h2>Amore &amp; Explore<span></span></h2>
+                            <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+                            <a href="#">View more</a>
+                        </figcaption> 
+                         </figure>       
+                 </li>
+
+                  <li class="gridbanner"><figure class="effect-sadie"><img class="imgbanner" alt="2" src="images/image21.jpg"/>
+                    <figcaption>
+                            <h2>Amore &amp; Explore<span></span><a href="#">View more</a></h2>
+                            <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+                            <a href="#">View more</a>
+                        </figcaption> 
+                         </figure>          
+                  </li>
+
+
+                  <li class="gridbanner"><figure class="effect-sadie"><img class="imgbanner" alt="3" src="images/image22.jpg"/>
+                  <figcaption>
+                            <h2> <span>Amore &amp; Explore</span></h2>
+                            <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+                            <a href="#">View more</a>
+                        </figcaption> 
+                         </figure> 
+                  </li>
+            </ul>
+             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             <div>
+             <h2>Suggested For You</h2>
+                <div class="grid">
+                    <figure class="effect-zoe">
+                        <img src="images/image26.jpg" alt="img25"/>
+                        <figcaption>
+                            <h2>Romantic  <span>Resorts</span></h2>
+                            <p class="icon-links">
+                                <a href="#"><span class="icon-heart"></span></a>
+                                <a href="#"><span class="icon-eye"></span></a>
+                                <a href="#"><span class="icon-paper-clip"></span></a>
+                            </p>
+                            <p class="description">Take a look at the ten hottest resorts for you and your special someone.</p>
+                        </figcaption>           
+                    </figure>
+                    <figure class="effect-zoe">
+                        <img src="images/image25.jpg" alt="img26"/>
+                        <figcaption>
+                            <h2>Creative <span>Zoe</span></h2>
+                            <p class="icon-links">
+                                <a href="#"><span class="icon-heart"></span></a>
+                                <a href="#"><span class="icon-eye"></span></a>
+                                <a href="#"><span class="icon-paper-clip"></span></a>
+                            </p>
+                            <p class="description">Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+                        </figcaption>           
+                    </figure>
+                    <figure class="effect-zoe">
+                        <img src="images/image24.jpg" alt="img26"/>
+                        <figcaption>
+                            <h2>Creative <span>Zoe</span></h2>
+                            <p class="icon-links">
+                                <a href="#"><span class="icon-heart"></span></a>
+                                <a href="#"><span class="icon-eye"></span></a>
+                                <a href="#"><span class="icon-paper-clip"></span></a>
+                            </p>
+                            <p class="description">Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+                        </figcaption>           
+                    </figure>
+                    <figure class="effect-zoe">
+                        <img src="images/image27.jpg" alt="img26"/>
+                        <figcaption>
+                            <h2>Creative <span>Zoe</span></h2>
+                            <p class="icon-links">
+                                <a href="#"><span class="icon-heart"></span></a>
+                                <a href="#"><span class="icon-eye"></span></a>
+                                <a href="#"><span class="icon-paper-clip"></span></a>
+                            </p>
+                            <p class="description">Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+                        </figcaption>           
+                    </figure>
+                    <figure class="effect-zoe">
+                        <img src="images/image28.jpg" alt="img26"/>
+                        <figcaption>
+                            <h2>Creative <span>Zoe</span></h2>
+                            <p class="icon-links">
+                                <a href="#"><span class="icon-heart"></span></a>
+                                <a href="#"><span class="icon-eye"></span></a>
+                                <a href="#"><span class="icon-paper-clip"></span></a>
+                            </p>
+                            <p class="description">Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+                        </figcaption>           
+                    </figure>
+                    <figure class="effect-zoe">
+                        <img src="images/image29.jpg" alt="img26"/>
+                        <figcaption>
+                            <h2>Creative <span>Zoe</span></h2>
+                            <p class="icon-links">
+                                <a href="#"><span class="icon-heart"></span></a>
+                                <a href="#"><span class="icon-eye"></span></a>
+                                <a href="#"><span class="icon-paper-clip"></span></a>
+                            </p>
+                            <p class="description">Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+                        </figcaption>           
+                    </figure>
+                    <figure class="effect-zoe">
+                        <img src="images/image7.jpg" alt="img26"/>
+                        <figcaption>
+                            <h2>Creative <span>Zoe</span></h2>
+                            <p class="icon-links">
+                                <a href="#"><span class="icon-heart"></span></a>
+                                <a href="#"><span class="icon-eye"></span></a>
+                                <a href="#"><span class="icon-paper-clip"></span></a>
+                            </p>
+                            <p class="description">Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+                        </figcaption>           
+                    </figure>
+                    <figure class="effect-zoe">
+                        <img src="images/image31.jpg" alt="img26"/>
+                        <figcaption>
+                            <h2>Creative <span>Zoe</span></h2>
+                            <p class="icon-links">
+                                <a href="#"><span class="icon-heart"></span></a>
+                                <a href="#"><span class="icon-eye"></span></a>
+                                <a href="#"><span class="icon-paper-clip"></span></a>
+                            </p>
+                            <p class="description">Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+                        </figcaption>           
+                    </figure>
+                </div>
+
+
+
+
+
+
+
+
+ </div>
+</body>
+</html>

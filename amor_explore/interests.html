@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile Menu Hamburger</title>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
+    <!--Using jQuery and jQuery UI for display effects-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+
+    <!--Using the hamburger menu display code-->
+    <script src="hamburger.js"></script>
+
+    <!--Using Media Queries, if the viewport is smaller than 700px use another stylesheet-->
+    <link rel="stylesheet" type="text/css" media="all" href="style.css"/>
+
+    <script src="unslider.min.js"></script>
+
+</head>
+
+<body>
+
+<!--This wrapping container is used to get the width of the whole content-->
+<div id="container">
+
+    <!--The Hamburger Button in the Header-->
+    <header>
+        <div id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+
+    <!--The mobile navigation Markup hidden via css-->
+    <nav>
+        <ul>
+            <li><a class="white" href="index.html">Home</a></li>
+            <li><a class="white" href="destinations.html">Destinations</a></li>
+            <li><a class="blue" href="interests.html">Interests</a></li>
+            <li><a class="white" href="blogs.html">Blogs</a></li>
+        </ul>
+    </nav>
+
+    <!--The Layer that will be layed over the content
+    so that the content is unclickable while menu is shown-->
+    <div id="contentLayer"></div>
+
+    <!--The content of the site-->
+    <div id="content">
+
+
+             
+            <ul>
+                 <li class="grid"><figure class="effect-sadie"><img class="imgbanner" alt="1" src="images/santorinigreece.jpeg"/>
+                    <figcaption>
+                            <h2>Santorini, Greece<span></span></h2>
+                            <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+                            <a href="#">View more</a>
+                        </figcaption> 
+                         </figure>       
+                 </li>
+
+                  <li class="grid"><figure class="effect-sadie"><img class="imgbanner" alt="2" src="images/maldives.jpeg"/>
+                    <figcaption>
+                            <h2>maldives<span></span></a></h2>
+                            <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+                            <a href="#">View more</a>
+                        </figcaption> 
+                         </figure>          
+                  </li>
+
+
+                  <li class="grid"><figure class="effect-sadie"><img class="imgbanner" alt="3" src="images/florenceitaly.jpeg"/>
+                  <figcaption>
+                            <h2> <span>florenceitaly</span></h2>
+                            <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+                            <a href="#">View more</a>
+                        </figcaption> 
+                         </figure> 
+                  </li>
+
+                  <li class="grid"><figure class="effect-sadie"><img class="imgbanner" alt="3" src="images/kauaihawaii.jpeg"/>
+                  <figcaption>
+                            <h2> <span>kauaihawaii</span></h2>
+                            <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+                            <a href="#">View more</a>
+                        </figcaption> 
+                         </figure> 
+                  </li>
+
+                  <li class="grid"><figure class="effect-sadie"><img class="imgbanner" alt="3" src="images/carmelcalifornia.jpeg"/>
+                  <figcaption>
+                            <h2> <span>carmelcalifornia</span></h2>
+                            <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+                            <a href="#">View more</a>
+                        </figcaption> 
+                         </figure> 
+                  </li>
+
+
+                  <li class="grid"><figure class="effect-sadie"><img class="imgbanner" alt="3" src="images/kohtaothailand.jpeg"/>
+                  <figcaption>
+                            <h2> <span>Koh Tao Thailand</span></h2>
+                            <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+                            <a href="#">View more</a>
+                        </figcaption> 
+                         </figure> 
+                  </li>
+
+
+                  <li class="grid"><figure class="effect-sadie"><img class="imgbanner" alt="3" src="images/theberkshires.jpeg"/>
+                  <figcaption>
+                            <h2> <span>The Berkshires</span></h2>
+                            <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+                            <a href="#">View more</a>
+                        </figcaption> 
+                         </figure> 
+                  </li>
+
+
+                  <li class="grid"><figure class="effect-sadie"><img class="imgbanner" alt="3" src="images/kyotojapan.jpeg"/>
+                  <figcaption>
+                            <h2> <span>Kyoto, Japan</span></h2>
+                            <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+                            <a href="#">View more</a>
+                        </figcaption> 
+                         </figure> 
+                  </li>
+
+
+                  <li class="grid"><figure class="effect-sadie"><img class="imgbanner" alt="3" src="images/paris.jpeg"/>
+                  <figcaption>
+                            <h2> <span>Paris, France</span></h2>
+                            <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+                            <a href="#">View more</a>
+                        </figcaption> 
+                         </figure> 
+                  </li>
+
+
+                  <li class="grid"><figure class="effect-sadie"><img class="imgbanner" alt="3" src="images/banffalberta.jpeg"/>
+                  <figcaption>
+                            <h2> <span>banffalberta</span></h2>
+                            <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+                            <a href="#">View more</a>
+                        </figcaption> 
+                         </figure> 
+                  </li>
+            </ul>
+             </div>
+
+
+
+
+
+
+
+
+ </div>
+</body>
+</html>
