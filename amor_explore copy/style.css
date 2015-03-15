@@ -609,7 +609,7 @@ section .float-honeymoon-textbox h3{
 }
 
 .section-float{
-padding: 16%;
+padding: 10% 16% 16% 16%;
     float: right;
     position: relative;
     height: auto;
@@ -617,8 +617,15 @@ padding: 16%;
 
 .image-larger{
 position: relative;
-margin-left: -70%;
+margin-left: -68%;
     width: 130%;
+    z-index: 1;
+}
+
+.image-larger2{
+position: relative;
+margin-left: -68%;
+    width: 120%;
     z-index: 1;
 }
 
