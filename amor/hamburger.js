@@ -29,7 +29,7 @@ jQuery(document).ready(function () {
         var contentWidth = jQuery('#content').width();
 
         //set the content with the width that it has originally
-        jQuery('#content').css('width', contentWidth);
+        jQuery('#content').css('width', 'vh');
 
         //display a layer to disable clicking and scrolling on the content while menu is shown
         jQuery('#contentLayer').css('display', 'block');

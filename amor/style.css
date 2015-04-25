@@ -90,135 +90,59 @@ body {
 /*
 Header is relative so z-index: 1 guarantees always displayed on top
 */
+
+#container{
+    margin: 0 auto;
+}
 header {
-    background-color: none;
+    margin: 0 auto;
+    background-color: rgb(54, 81, 100);
     padding: 10px;
-    text-decoration: none;
     position: fixed;
     width: 100%;
+    height: 30px;
     z-index: 4;
 
     
 }
 
 /*
-using background color is important to cover the menu
-position absolute isset to cover the whole viewport
+Style the header menu
 */
-#content {
-    background-color: white;
 
-    padding: 0px 0px 0px 0px;
-    position: relative;
-    width: auto;
-    height: 100%;
-    -webkit-box-shadow: -10px 0px 9px 0px rgba(0, 0, 0, 0.4);
-    box-shadow: -10px 0px 9px 0px rgba(0, 0, 0, 0.4);
-}
 
-/*
-the hamburger button with a little gradient effekt
-*/
-#hamburger {
-    border: 1px solid rgba(54, 81, 100, .8);
-    border-radius: 3px 3px 3px 3px;
-    cursor: pointer;
+header ul li {
     display: block;
-    height: 24px;
-    padding: 3px 4px 3px;
-    position: relative;
-    width: 25px;
-
-    background: white;
-    
-    background: linear-gradient(to bottom, rgba(54, 81, 100, .8), rgba(54, 81, 100, .8));
-    
+    float: left;
+    padding: 5px 100px 0px 38px;
 }
 
-/*
-The white stripes in the hamburger button
-*/
-#hamburger div {
-    background-color: #fff;
-    border: 1px solid #eee;
-    border-radius: 2px 2px 2px 2px;
-    height: 2px;
-    margin-top: 3px;
-    width: 90%;
+header ul li a{
+    text-align: center;
+
 }
 
-/*
-The navigation container in the background
-*/
-nav {
-    opacity: 0;
-    left: 0px;
-    top: 0px;
-    position: fixed;
-    z-index: 0;
-    width: 30%;
-    height: 100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    overflow-y: auto;
-    background: #3e3c3d;
- 
-}
-
-
-
-/*
-Style the navigation menu
-*/
-nav ul {
-    list-style: none;
-    margin: 0;
-    width: 100%;
-    padding: 0;
-}
-
-nav li {
-    position: relative;
-    font-size: 1em;
-    font-weight: bold;
-    border-bottom: 1px solid #222222;
-    border-top: 1px solid #444444;
-    padding: 15px;
-}
-nav ul li .blue{
-    font-size: 1.2em;
-    font-weight: 100;
+header ul li .blue{
+    font-size: .8em;
+    text-transform: uppercase;
+    font-weight: 500;
     font-family: helvetica;
     color: rgb(68, 162, 222);
     text-decoration: none;
+    letter-spacing: 1px;
 }
 
-nav ul .white {
-    font-size: 1.2em;
-    font-weight: 100;
+header ul .white {
+    text-transform: uppercase;
+    float: left;
+    font-size: .8em;
+    font-weight: 500;
     font-family: helvetica;
     color: #fff;
     text-decoration: none;
+    letter-spacing: 1px;
 }
 
-/*
-The Layer that will be layed over the content
-so that the content is unclickable while menu is shown
-*/
-#contentLayer {
-    display: none;
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 70%;
-    z-index: 5;
-}
-/* END HAMBURGER*/
 
 
 
@@ -246,8 +170,36 @@ so that the content is unclickable while menu is shown
     left: 10px;
 }
 
+.fixed{
+    position: fixed;
+    height: auto;
+    width: auto;
+
+}
+
+.move{
+    background-color: white;
+    position: relative;
+    top:620px;
+    left: 0px;
+}
 
 
+.headline{
+    padding-top: 3px;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(54, 81, 100, .8);
+}
+
+.headline h1{
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-weight: 100;
+    font-family: helvetica;
+
+}
 /*---------------*/
 /***** Sadie *****/
 /*---------------*/
@@ -263,28 +215,22 @@ figure.effect-sadie figcaption{
 
 figure.effect-sadie h2 {
     position: absolute;
-    top: 50%;
+    bottom: 15%;
     left: 0;
-    width: 100%;
+    width: 95%;
     color: white;
-    font-size: 40px;
-    background-color: rgba(12, 34, 56, 0.7);
+    font-size: 20px;
+    background-color: rgba(54, 81, 100, .8);
     padding-bottom: 10px;
     padding-top: 10px;
+    text-align: center;
     
 }
 
 
 
-figure.effect-sadie p {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 2em;
-    width: 100%;
-    opacity: 0;
-    -webkit-transform: translate3d(0,10px,0);
-    transform: translate3d(0,10px,0);
+#content{
+    padding-top: 40px;
 }
 
 
@@ -326,8 +272,17 @@ figure.effect-sadie p {
     height: 100%;
     width: 100%;
 }
+.grid figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    width: 100%;
+    opacity: .7;
+}
 
-
+.grid figure:hover {
+    opacity: .9;
+}
 .grid figure {
     position: relative;
     float: left;
@@ -338,12 +293,11 @@ figure.effect-sadie p {
     cursor: pointer;
 }
 
-.grid figure img {
-    position: relative;
-    display: block;
-    min-height: 100%;
-    max-width: 100%;
-    opacity: 0.8;
+
+
+.grid:hover {
+    
+    opacity: 1.0;
 }
 
 .grid figure figcaption {
@@ -372,8 +326,7 @@ figure.effect-sadie p {
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
 .grid figure figcaption > a {
-    
-    text-indent: 200%;
+
    
     font-size: 0;
     opacity: 0;
@@ -382,7 +335,7 @@ figure.effect-sadie p {
 .grid figure h2 {
 
 
-    font-weight: 300;
+    font-weight: 100;
 }
 
 .grid figure h2 span {
@@ -648,6 +601,17 @@ text-align: right;
 line-height: 1.4;
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

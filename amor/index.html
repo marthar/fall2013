@@ -1,19 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mobile Menu Hamburger</title>
+    <title>Amor&Explore Magazine</title>
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
-    <!--Using jQuery and jQuery UI for display effects-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
 
-    <!--Using the hamburger menu display code-->
-    <script src="hamburger.js"></script>
 
     <!--Using Media Queries, if the viewport is smaller than 700px use another stylesheet-->
     <link rel="stylesheet" type="text/css" media="all" href="style.css"/>
 
-   <script src="unslider.min.js"></script>
 
 
 </head>
@@ -26,52 +20,27 @@
     
     <!--The Hamburger Button in the Header-->
     <header>
-        <div id="hamburger">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </header>
-
-    <!--The mobile navigation Markup hidden via css-->
-    <nav>
         <ul>
             <li><a class="blue" href="index.html">Home</a></li>
             <li><a class="white" href="destinations.html">Destinations</a></li>
             <li><a class="white" href="interests.html">Interests</a></li>
-            <li><a class="white" href="blogs.html">Blogs</a></li>
+
         </ul>
-    </nav>
 
-    <!--The Layer that will be layed over the content
-    so that the content is unclickable while menu is shown-->
-    <div id="contentLayer"></div>
+    </header>
 
-    <!--The content of the site-->
-    <div id="content">
+</div>
 
-
-
+<div class='fixed'>
              <div class="banner">
             <ul>
                 <li class="gridbanner"><figure class="effect-sadie"><img class="imgbanner" alt="1" src="images/1.jpg"/>                         
                         <div><img class="amor" src="images/amor.png" alt="img25"/></div>
                  </li>
-
-                 <li class="gridbanner"><figure class="effect-sadie"><img class="imgbanner" alt="1" src="images/image20.jpg"/>
-                    <div><img class="amor" src="images/amor.png" alt="img25"/></div>      
-                 </li>
-
-                  <li class="gridbanner"><figure class="effect-sadie"><img class="imgbanner" alt="2" src="images/image21.jpg"/>
-                    <div><img class="amor" src="images/amor.png" alt="img25"/></div>        
-                  </li>
-
-
-                  <li class="gridbanner"><figure class="effect-sadie"><img class="imgbanner" alt="3" src="images/image22.jpg"/>
-                  <div><img class="amor" src="images/amor.png" alt="img25"/></div>
-                  </li>
             </ul>
              
+        </div>
+    </div>
 
 
 
@@ -89,14 +58,17 @@
 
 
 
+             <div class='move'>
+                
 
-             <div>
                 <div class="grid">
+                    <div class='headline'> <h1>Top Articles This Week</h1>
+                </div>
                     <figure class="text"> 
                         <img src="images/airballoon.jpg" alt="img25"/>
 
                         <figcaption>
-                            <h2><span>500 Day</span> Round The World Honeymoon</h2>
+                            <h2>500 Day Round The World Honeymoon</h2>
                             <p>This couple planned a 500-day, round-the-world honeymoon;<br> dubbed it their Honeytrek; and have been blogging about<br> it since the journey began more than a year ago.</p>
                             <a href="honeymoon.html"></a>
                            
@@ -105,56 +77,61 @@
                     <figure class="text">
                         <img src="images/image25.jpg" alt="img26"/>
                         <figcaption>
-                            <h2>Yay<span>Traveling</span></h2>
-                            
+                            <h2>31 Most Romantic Getaways</h2>
+                            <p>For your honeymoon, anniversary, couple's trip or any<br>romantic getaway, these are the island resorts that offer<br>the ultimate romantic experience.</p>
+                            <a href="article2.html"></a>
                         </figcaption>           
                     </figure>
                     <figure class="text">
                         <img src="images/image24.jpg" alt="img26"/>
                         <figcaption>
-                            <h2>Woo <span>Fun</span></h2>
+                            <h2>The Top 25 Places To Watch The Sunset Around The World</h2>
+                            <p>They say that no two sunsets are ever the same. Whether it&#8217;s the colors,<br>the clouds, or the scenery each one has something unique about it. So<br>get ready because from the lava fields of Iceland to the beaches of<br>the Mediterranean you are about to experience the 25 best places to<br>watch the sunset around the world.</p>
+                            <a href="honeymoon.html"></a>
+
                             
                         </figcaption>           
                     </figure>
                     <figure class="text">
                         <img src="images/image27.jpg" alt="img26"/>
                         <figcaption>
-                            <h2>Surfs <span>UPPPP</span></h2>
-                            
+                            <h2>Adventure Time, Surf&#8217;s Up</span></h2>
+                            <p>Find the best spots around the world to surf it up as a couple.<br>For all levels of expertise, this could be the trip for you.
                            
                         </figcaption>           
                     </figure>
                     <figure class="text">
                         <img src="images/image28.jpg" alt="img26"/>
                         <figcaption>
-                            <h2>Pretty <span>Castles</span></h2>
-                            
+                            <h2>Historic and Culture Vacations</span></h2>
+                            <p>Do you and your significant other enjoy trips where you can uncover<br>facts and enjoy historic places together?If so, this is the trip for you.<br>Don't waste time on the beach, instead broaden your horizens.
                             
                         </figcaption>           
                     </figure>
                     <figure class="text">
                         <img src="images/image29.jpg" alt="img26"/>
                         <figcaption>
-                            <h2>Cities <span>Yea</span></h2>
-                            
+                            <h2>Hustle and Bustle, Cities to Explore</span></h2>
+                            <p>The expert travelers at Trip Advisor came together to compile their<br>list of the best rated cities in the world to visit. I suddenly have a lot of<br>plane tickets to purchase.</p>
                             
                         </figcaption>           
                     </figure>
                     <figure class="text">
                         <img src="images/image7.jpg" alt="img26"/>
                         <figcaption>
-                            <h2>huts <span>and stuff</span></h2>
-                            
+                            <h2>15 Unique Hotels To Experience</h2>
+                            <p>They say that no two sunsets are ever the same. Whether it&#8217;s the colors,<br>the clouds, or the scenery each one has something unique about it. So<br>get ready because from the lava fields of Iceland to the beaches of<br>the Mediterranean you are about to experience the 25 best places to<br>watch the sunset around the world.</p>
                         </figcaption>           
                     </figure>
                     <figure class="text">
                         <img src="images/image31.jpg" alt="img26"/>
                         <figcaption>
-                            <h2>LONDON <span>eye</span></h2>
-                            
+                            <h2>Escape to London</span></h2>
+                            <p>They say that no two sunsets are ever the same. Whether it&#8217;s the colors,<br>the clouds, or the scenery each one has something unique about it. So<br>get ready because from the lava fields of Iceland to the beaches of<br>the Mediterranean you are about to experience the 25 best places to<br>watch the sunset around the world.</p>
                         </figcaption>           
                     </figure>
                 </div>
+            </div>
 
 
 
