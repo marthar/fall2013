@@ -288,7 +288,7 @@ figure.effect-sadie h2 {
 .grid figure img {
     position: relative;
     display: block;
-    min-height: 100%;
+    height: 100%;
     width: 100%;
     opacity: .7;
 }
@@ -377,7 +377,7 @@ figure.effect-sadie h2 {
 .grid2 figure img {
     position: relative;
     display: block;
-    min-height: 100%;
+    height: 100%;
     width: 100%;
     opacity: .7;
 }
