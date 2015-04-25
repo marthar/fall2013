@@ -93,6 +93,7 @@ Header is relative so z-index: 1 guarantees always displayed on top
 
 #container{
     margin: 0 auto;
+    width: 100%;
 }
 header {
     margin: 0 auto;
@@ -114,7 +115,7 @@ Style the header menu
 header ul li {
     display: block;
     float: left;
-    padding: 7px 100px 0px 38px;
+    padding: 7px 50px 0px 50px;
 }
 
 header ul li a{
@@ -143,6 +144,15 @@ header ul .white {
     letter-spacing: 1px;
 }
 
+
+ul.menu-container{
+    width:556px;
+    height:30px;
+
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+}
 
 
 

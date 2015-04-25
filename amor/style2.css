@@ -77,7 +77,7 @@ Style the header menu
 
 header ul li {
     float: left;
-    padding: 7px 100px 0px 38px;
+    padding: 7px 50px 0px 50px;
 }
 
 header ul li a{
@@ -106,6 +106,14 @@ header ul .white {
 }
 
 
+ul.menu-container{
+    width:556px;
+    height:30px;
+
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+}
 
 
 
