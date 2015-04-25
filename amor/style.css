@@ -114,7 +114,7 @@ Style the header menu
 header ul li {
     display: block;
     float: left;
-    padding: 5px 100px 0px 38px;
+    padding: 7px 100px 0px 38px;
 }
 
 header ul li a{
@@ -357,6 +357,85 @@ figure.effect-sadie h2 {
     letter-spacing: 1px;
     font-size: 1em;
 }
+
+
+
+
+.grid2 figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    width: 100%;
+    opacity: .7;
+}
+
+
+.grid2 figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 50%;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+.grid2 figure figcaption {
+    padding: 2.5em;
+    color: #fff;
+    text-transform: none;
+    font-size: 1em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.grid2 figure figcaption::before,
+.grid2 figure figcaption::after {
+    pointer-events: none;
+}
+
+.grid2 figure figcaption,
+.grid2 figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid2 figure figcaption > a {
+
+   
+    font-size: 0;
+    opacity: 0;
+}
+
+.grid2 figure h2 {
+
+
+    font-weight: 100;
+}
+
+
+
+.grid2 figure h2,
+.grid2 figure p {
+    margin: 0;
+}
+
+.grid2 figure p {
+    
+    
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+
 
 
 
