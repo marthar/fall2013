@@ -70,7 +70,6 @@ background-color:white;
 
 
 
-
 /* HAMBURGER*/
 html {
     overflow-y: scroll;
@@ -193,7 +192,7 @@ ul.menu-container{
 .move{
     
     position: relative;
-    top:620px;
+    top:580px;
     left: 0px;
 }
 
@@ -742,12 +741,40 @@ footer h4{
 
 
 
+@media (max-width: 1590px) {
+
+.move{
+    
+    top:500px;
+   
+}
+
+
+figure.text h2{
+    font-size: 1.2em;
+}
+
+
+}
 
 
 
+@media (max-width: 1375px) {
+
+.move{
+    
+    top:450px;
+   
+}  }
 
 
+@media (max-width: 1255px) {
 
+.move{
+    
+    top:425px;
+   
+}  }
 
 
 
