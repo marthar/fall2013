@@ -442,7 +442,7 @@ figure.effect-sadie h2 {
 
 .grid2 figure p {
     
-    
+    font-weight: 100;
     letter-spacing: 1px;
     font-size: 1em;
 }
@@ -822,16 +822,112 @@ figure.text h2{
 
  }
 
+@media (max-width: 874px) {
+
+.move{
+    
+    top:270px;
+   } 
+
+.grid2 figure {
+    
+    width: 100%;
+}
+
+.grid2 figure p {
+    
+    
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+ }
+
+
+@media (max-width: 800px) {
+
+.move{
+    
+    top:240px;
+   } 
+
+
+ }
+
+
+@media (max-width: 725px) {
+
+.move{
+    
+    top:200px;
+   } 
+
+   .amor-header{
+
+    float: none;
+
+}
+
+
+header {
+    
+    height: 50px;
+}
+
+ul.menu-container{
+    position: absolute;
+    width:500px;
+    height:30px;
+    left: 17px;
+}
+
+header ul li {
+    display: block;
+    float: left;
+    padding: 7px 80px 0px 0px;
+}
+
+ }
+
+
+@media (max-width: 625px) {
+
+.move{
+    
+    top:160px;
+   } 
+
+
+ }
+
+
+@media (max-width: 525px) {
+
+.move{
+    
+    top:100px;
+   } 
+
+.grid2 figure p {
+    
+    display: none;
+}
 
 
 
 
+ }
 
 
+@media (max-width: 425px) {
+
+header ul li {
+
+    padding: 7px 50px 0px 0px;
+}
 
 
-
-
+ }
 
 
 
