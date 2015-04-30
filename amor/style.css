@@ -776,6 +776,62 @@ figure.text h2{
    
 }  }
 
+@media (max-width: 1190px) {
+
+.move{
+    
+    top:400px;
+   
+}  }
+
+
+@media (max-width: 1130px) {
+
+.move{
+    
+    top:370px;
+   } 
+
+.grid2 figure p {
+    
+    
+    letter-spacing: 1px;
+    font-size: .8em;
+}
+
+ }
+
+@media (max-width: 1050px) {
+
+.move{
+    
+    top:340px;
+   } 
+
+
+ }
+
+
+@media (max-width: 978px) {
+
+.move{
+    
+    top:300px;
+   } 
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
