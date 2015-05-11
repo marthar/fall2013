@@ -72,6 +72,7 @@ body{
 
 #coverphotos{
 	position: relative;
+	width: 100%;
 	height: 100%;
 	text-align: center;
 	top:70px;
@@ -82,10 +83,10 @@ body{
 
 #coverphotos a img{
 
-	border-radius: 5%;
+	
 	display: inline-block;
-	margin:.5%;
-	max-width: 29.2%;
+	margin:-2px;
+	max-width: 33.3%;
 
 }
 
@@ -199,6 +200,10 @@ h3{
 	color: black;
 }
 
+
+h4 span{
+	font-style: italic;
+}
 h4{
 	font-size: 1.2em;
 	font-family: helvetica;
@@ -225,18 +230,46 @@ h4{
 	line-height: 140%;
 	text-decoration: none;
 	color:black;
+	font-style: italic;
+
 	
 
 }
 
 .otherwork aside h4{
-	font-size: .9em;
+	font-size: 1em;
 	font-weight: bold;
 	padding: 30% 0% 5% 0%;
+
+}
+
+.otherwork  h4{
+	font-size: 1em;
+	font-weight: bold;
+	padding: 30% 0% 5% 0%;
+
 }
 
 .otherwork aside nav li a:hover{
 	color:rgb(140, 140, 140);
+
+
+}
+
+.otherwork a:hover{
+	color:rgb(140, 140, 140);
+
+
+}
+
+.otherwork a{
+	font-family: helvetica;
+	font-size: .78em;
+	line-height: 140%;
+	text-decoration: none;
+	color:black;
+	font-style: italic;
+	padding-top: 0px;
 }
 
 
@@ -251,7 +284,7 @@ h4{
 }
 
 .info h4 {
-	font-size: .9em;
+	font-size: 1em;
 	font-weight: bold;
 	padding: 0% 0% 5% 0%;
 
@@ -261,7 +294,7 @@ h4{
 
 
 .mainarticle h4{
-	font-size: .9em;
+	font-size: 1em;
 	font-weight: bold;
 	padding: 0% 0% 3% 0%;
 
@@ -274,9 +307,14 @@ h4{
 	line-height: 140%;
 }
 
+.mainarticle p span{
+	font-style: italic;
+	}
+
 .mainarticle p a{
 	text-decoration: none;
 	color: black;
+	font-style: italic;
 
 }
 
@@ -324,7 +362,7 @@ iframe{
 
 .section_float2{
 	float: left;
-	width: 27%;
+	width: 24%;
 	padding:1%;
 	position: fixed;
 	left:24%;
@@ -340,7 +378,31 @@ iframe{
 	padding-right: 5%;
 }
 
+.section_float p{
+	padding-top: 200px;
+	padding-bottom: 200px;
+	font-family: helvetica;
+	font-weight: bold;
+	text-align: center;
+}
 
+.section_float h1{
+	padding-top: 20px;
+	padding-bottom: 200px;
+	font-family: helvetica;
+	font-size: .9em;
+	text-align: center;
+	line-height: 140%;
+	
+}
+
+.section_float h2{
+	padding-top: 15px;
+	padding-bottom: 0px;
+	font-family: helvetica;
+	font-weight: bold;
+	text-align: center;
+}
 
 
 /*about page*/
@@ -369,9 +431,9 @@ iframe{
 
 .section_float5{
 	float:right;
-	width:45%;
+	width:30%;
 	padding-top: 70px;
-	padding-right: 0%;
+	padding-right: 10%;
 }
 
 
@@ -425,13 +487,19 @@ iframe{
 
 @media screen and (max-width:1450px) {
 
+.section_float{
+	padding-top: 90px;
+}
 
+.section_float5{
+	padding-top: 88px;
+}
 
 .header{
 	z-index: 100;
 	position:fixed;
 	width: 100%;
-	height: 70px;
+	height: 90px;
 	background-color: white;
 	opacity: .9;
 
@@ -497,11 +565,21 @@ footer{
 
 /* Cover Photos */
 
+.otherwork  h4{
+	font-size: 1em;
+	font-weight: bold;
+	padding: 5% 0% 1% 0%;
+
+}
+
 .header {
 	width:100%;
-	left:2%;
 	height:90px;
 
+}
+
+.moveover{
+	margin-left:2%;
 }
 
 header h1{
@@ -511,7 +589,7 @@ header h1{
 
 #coverphotos a img{
 
-	max-width: 27.8%;
+	max-width: 33.3%;
 }
 
 #coverphotos{
@@ -535,9 +613,9 @@ header h1{
 }
 
 .otherwork aside h4{
-	font-size: .9em;
+	padding: 5% 0% 3% 0%;
 	font-weight: bold;
-	padding: 10% 0% 5% 0%;}
+}
 
 .section_float2{
 
@@ -550,13 +628,12 @@ header h1{
 }
 
 .mainarticle h4{
-	font-size: .9em;
-
+	padding: 0% 0% 1% 0%;
 }
 
 .mainarticle p{
-	font-size: .8em;
-	padding: 0% 0% 2% 0%;
+
+
 }
 
 .section_float{
@@ -646,16 +723,16 @@ header h1{
 }
 
 
-footer{
-	left:2%;
-}
 
 }
 
 
 /*****************   media queries   *************************/
 @media screen and (max-width:1140px) {
+#coverphotos a img{
 
+	max-width: 50%;
+}
 
 header h1{
 	width:100%;
@@ -688,7 +765,7 @@ header{
 
 #coverphotos a img{
 
-	max-width: 43%;
+	max-width: 50%;
 }
 
 #coverphotos{
@@ -696,7 +773,43 @@ header{
 	top:95px;
 }
 
+.mainarticle p{
+	font-size: 1em;
+}
 
+.info p{
+	font-size: 1em;
+}
+
+.section_float1 article h4{
+	font-size: 1.1em;
+}
+
+.section_float3 article h4{
+	font-size: 1.1em;
+}
+
+.section_float4 article h4{
+	font-size: 1.1em;
+}
+
+.section_float2 article h4{
+	font-size: 1.1em;
+}
+
+.section_float1 .otherwork aside nav ul li a{
+	font-size: 1em;
+	font-style: italic;
+}
+
+.otherwork a{
+	font-family: helvetica;
+	font-size: 1em;
+	line-height: 140%;
+	text-decoration: none;
+	color:black;
+	font-style: italic;
+}
 
 /*****************   media queries   *************************/
 @media screen and (max-width:720px) {
@@ -707,25 +820,77 @@ header{
 
 }
 
+.mainarticle p{
+	font-size: 1em;
+}
+
+header h1{
+
+	font-size: 1.5em;
+}
+
+
+
+
+.main_nav{
+	text-align: center;
+
+	width: 100%;
+	font-size: 1.3em;
+
+}
+
+.main_nav ul li{
+	text-align: center;
+	top:8px;
+	
+}
+
 
 
 
 /*****************   media queries   *************************/
-@media screen and (max-width:580px) {
+@media screen and (max-width:640px) {
 
 header {
 	width:100%;
+
 }
+
+header h1{
+	font-size: 1.5em;
+}
+
+.mainarticle p{
+	font-size: 1em;
+}
+
+
+.main_nav{
+	text-align: center;
+
+	width: 100%;
+	font-size: 1.3em;
+
+}
+
+.main_nav ul li{
+	text-align: center;
+}
+
+
+
+
+
 
 /* Cover Photos */
 
 #coverphotos a img{
 
-	max-width: 43%;
+	max-width: 100%;
 }
 
 #coverphotos{
-
 	top:95px;
 }
 
@@ -746,8 +911,6 @@ header {
 	line-height: 140%;
 }
 
-.info
-
 .section_float2{
 
 	width: 85%;
@@ -759,13 +922,7 @@ header {
 	top:140px;
 }
 
-.mainarticle h4{
-	font-size: 1em;
-}
 
-.mainarticle p{
-	font-size: .8em;
-}
 
 .section_float{
 	width:85%;
@@ -854,12 +1011,10 @@ header {
 
 footer{
 	left:3%;
-
 }
 
 }
 
-/*julia{hello}
 
 
 
