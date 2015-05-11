@@ -52,6 +52,17 @@ table {
 
 
 
+.youtube{
+	margin: 0 auto;
+	padding-bottom:56.25%;
+	position: relative;
+	width:100%;
+	height: auto;
+	left: 0;
+	top: 0;
+}
+
+
 body{
 	padding: 0;
 	margin: 0;
@@ -368,12 +379,13 @@ iframe{
 	left:24%;
 	height: 26%;
 	top:100px;
+	display:none;
 }
 
 .section_float{
 	
 	float:right;
-	width:40%;
+	width:70%;
 	padding-top: 70px;
 	padding-right: 5%;
 }
