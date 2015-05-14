@@ -48,27 +48,110 @@ table {
 }
 
 /* Add Styles Here */
+.superman{
+    position: absolute;
+    top:20%;
+    left:20%;
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+}
+
+
+.superman:hover{
+    -webkit-transform: translate(500px, 0px) scale(3) rotate(360deg);
+
+}
+
 
 body{
-    width:960px;
-    height:auto;
-    background-color: red;
-    -webkit-animation:change 1s infinite; /* Safari and Chrome */
-    
+    background-color: blue;
+
+}
+
+body p{
+    position: absolute;
+    top:20px;
+    left: 20px;
+    font-family: helvetica;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: lightblue;
+    letter-spacing: 2px;
 }
 
 
-/* Define the keyframe */
-@-webkit-keyframes change {
-   0% {background-color:red; }
-   50% {background-color:yellow; }
-   100% {background-color:blue; }
+
+
+.diamond {
+    border-style: solid;
+    border-color: transparent transparent red transparent;
+    border-width: 0 45px 50px 45px;
+    height: 0;
+    width: 230px;
+    left:3px;
+    top:5px;
+    position: relative;
+    margin: 0px 0 0px 0px;
+}
+.diamond:after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: -45px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: red transparent transparent transparent;
+    border-width: 180px 160px 0px 160px;
 }
 
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-top: 35px solid yellow;
+        position:absolute;
+        top:175px;
+        left:128px;
+        z-index:1;
+}
+.triangle:after{
+    content:"";
+    width:70px;
+        height:20px;
+        border-radius:100%;
+        background-color:red;
+    top:-46px;
+        left:-35px;
+        position:absolute;
+        }
 
+.bottoms{
+    width:110px;
+        height:35px;
+        border-radius:100%;
+        background-color:yellow;
+    position:absolute;
+        top:120px;
+        left:105px;
+        z-index:2;
+        }
+.bottoms:before{
+    content:"";
+        width: 0;
+    height:0;
+    border-left: 35px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 35px solid yellow;
+        position:absolute;
+        top:-3px;
+        left:-25px;
+        
+        }
         
 .bottomscircle{
-	width:40px;
+    width:40px;
         height:30px;
         background-color:red;
         border-radius:100%;
@@ -79,15 +162,17 @@ body{
         
         }
 .bottomscircle:after{
-	content:"";
-	width:130px;
+    content:"";
+    width:130px;
         height:28px;
         background-color:red;
         border-radius:100%;
         position:absolute;
         top:-50px;
         left:-45px;
-        z-index:3;	
+        z-index:3;  
+    webkit-transform: rotate(-20deg);
+    transform-origin:bottom right;
 }
 
 .leftpart{
@@ -114,7 +199,7 @@ body{
 }
 
 .leftpart:before{
-	content:"";
+    content:"";
         width:100px;
         height:110px;
         top:-4px;
@@ -127,7 +212,7 @@ body{
 }
 
 .topcircle{
-	width:140px;
+    width:140px;
         height:60px;
         background-color:yellow;
         border-radius:200px 250px 10px 90px;
@@ -138,58 +223,58 @@ body{
 }
 
 .righttriangle{
-	width: 0;
-	height: 0;
-	border: 30px solid transparent;
-	border-bottom:40px solid yellow;
-	position: absolute;
-	top: -10px;
+    width: 0;
+    height: 0;
+    border: 30px solid transparent;
+    border-bottom:40px solid yellow;
+    position: absolute;
+    top: -10px;
         left:240px;
         z-index:6;
 }
 .righttriangle:after {
-	content: '';
-	position: absolute;
-	left: -70px;
-	top: 40px;
-	width: 0;
-	height: 0;
-	border: 50px solid transparent;
-	border-top-color: yellow;
+    content: '';
+    position: absolute;
+    left: -70px;
+    top: 40px;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top-color: yellow;
         z-index:7;
 }
 
 .square{
-	width:45px;
+    width:45px;
         height:40px;
         background-color:red;
         position:absolute;
         left:230px;
-	top:20px;
+    top:20px;
         z-index:8;
         }
 
 .smalltriangle{
-	width: 0;
-	height: 0;
-	border: 13px solid transparent;
-	border-top:17px solid yellow;
-	position: absolute;
-	top: 24px;
+    width: 0;
+    height: 0;
+    border: 13px solid transparent;
+    border-top:17px solid yellow;
+    position: absolute;
+    top: 24px;
         left:233px;
-        z-index:9;	
+        z-index:9;  
 
 }
 
 
 .scurve{
-	width:110px;
+    width:110px;
         height:40px;
         background-color:red;
         border-radius:100% 100% 100% 0%;
         position:absolute;
         top:79px;
         left:150px;
-        z-index:9;	
+        z-index:9;  
 
 }
