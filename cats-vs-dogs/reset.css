@@ -55,7 +55,7 @@ table {
 
 .centered { 
   margin:0 auto;
-  width:960px;
+  width:100%;
 }
 
 
@@ -72,5 +72,206 @@ table {
 .clearfix { display: inline-block; }
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
+
+
+
+
+#site-header h1 a {
+display:block;
+text-indent:-9999px;
+position:absolute;
+width:500px; height:200px;
+background:url (images/dogsvscat-logo.gif) no-repeat left top;
+}
+
+
+body {margin:0 auto;
+width: 100%;
+}
+
+header {
+	position:relative;
+	height:100px;
+	left:25%;
+	text-align:center;
+	padding-bottom: 20px;
+}
+
+h1{ 
+	float: left;
+	font-family: "league_gothicregular", Georgia, serif, bold;
+	padding: 0% 1% 0% 0%;
+	margin: 0% 1% 0% 0%;
+	text-transform: uppercase;
+	font-size: 5em;
+	padding-top: 1%;
+
+}
+
+
+#vs {
+	float: left;
+	padding-bottom: 1%;
+	margin: 1% 1% 0% 0%;
+	
+	font-weight: bold;
+	font-style: italic;
+	font-family: georgia;
+	color:gray;
+	font-size: 4em;
+	border-top: solid 5px gray;
+	border-bottom:solid 5px gray;
+
+
+
+
+}
+
+li{	
+	float:left;
+	text-align: center;
+	}
+
+
+nav{margin:0 auto;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	height: 20px;
+	padding:10px;}
+
+
+nav li a{
+	text-align: center;
+	padding: 20px;
+	margin: 10px;
+	width: 1.3em;
+	text-decoration: none;
+	color:black;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+section{
+	position:relative;
+	height:30%;
+}
+
+.dogs{
+	position: absolute;
+	left: 15%;
+	top:10%;
+}
+
+.cats{
+	position: absolute;
+	left:40%;
+	top:10%;
+
+}
+
+article {
+
+	float:left;
+	margin:1%;
+	padding:0%;
+	width: 20%;
+
+}
+
+article img {
+	max-width:100%;
+	
+}
+
+
+
+h3{ 
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('leaguegothic-regular-webfont.eot');
+    src: url('leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('leaguegothic-regular-webfont.woff') format('woff'),
+         url('leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+footer{ height:20px;
+		border-top: 5px solid black;
+		position:absolute;
+		top:500px;
+		left:0px;
+		width: 100%;
+	}
+
+
+h4 a {
+	text-decoration: none;
+	color:red;
+}
+
+h5 a {
+	text-decoration: none;
+	color:red;
+}
+
+h4{
+	position: absolute;
+	font-size: 1em;
+	top:5px;
+	left:200px;
+}
+
+#martha{
+	position:absolute;
+	top:5px;
+	left: 670px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

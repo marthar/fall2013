@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Add Styles Here */
+
+
+
+
+/* Header */
+
+header{
+	position: relative;
+	height: 300px;
+	background-color: gray;
+	width: auto;
+}
+
+header h1 {
+	font-family: helvetica;
+	font-size: 2em;
+	font-style: bold;
+	position: absolute;
+
+
+}
+
+header h2 {
+	font-family: helvetica;
+	font-size: 9em;
+	font-style: bold;
+	position: absolute;
+	color:white;
+	position: absolute;
+	top:-63px;
+	left:-50px;
+	
+	
+}
+
+
+
+.logo{
+	position:absolute;
+	top:200px;
+	left:250px;
+	width: 100px;
+
+
+
+}
+
+.about{
+
+	position: absolute;
+	top:250px;
+	left: 250px;
+	width: 400px;
+	height: 300px;
+}
+
+.nav {
+	position: absolute;
+	top:220px;
+	left: 60px;
+	width: 30px;
+	height: 300px;
+
+}
+
+.bottom-nav {
+	position: relative;
+	height: 50px;
+	left: 60px;
+	
+
+}
+
+header{
+	padding-top: 20px;
+}
+
+
+
+ul{
+	font-family: helvetica;
+	float:left;
+	padding-right: 30px;
+	
+}
+
+
+
+.main-page article img {
+
+	width: 300px;
+
+
+
+}
+
+.main-page{
+	padding-top: 10px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	background-color: gray;
+	clear: both;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+
+}
+
+footer h5{
+	font-size: 1.2em;
+	font-style: bold;
+	font-family: helvetica;
+	color: white;
+}
+footer p{
+	font-family: helvetica;
+	color: white;
+}
+
+
+
+

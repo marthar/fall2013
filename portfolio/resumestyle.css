@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* END RESET*/
+
+body{
+	background-color: gray;
+	margin: 0 auto;
+	width:100%;
+
+}
+
+h1{
+	font-size: 3em;
+	font-family: helvetica;
+	color: white;
+	display: inline-block;
+}
+
+h2{
+	font-size: 2.5em;
+	font-family: helvetica;
+	color: white;
+}
+
+h3{
+	font-size: 2em;
+	font-family: helvetica;
+	color: white;
+	padding-bottom: 20px;
+}
+
+h4{
+	font-size: 2em;
+	font-family: helvetica;
+	color: white;
+}
+
+
+header {
+	text-align: center;
+}
+
+.main_nav{
+	height:35px;
+	background-color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+
+.main_nav ul li a{
+	float:left;
+	padding:8px 30px 0px 30px;
+	margin: 0px 10px 0px 10px;
+	font-size: 20px;
+	font-family: helvetica;
+	color:gray;
+	text-decoration: none;
+}
+
+.main_nav ul li{
+	display: inline-block;
+}
+
+article{
+	float: left;
+	padding:20px;
+	width:400px;
+} 
+article p{
+	font-family: georgia;
+	line-height: 20px;
+	color: white;
+
+	font-size: 16px;
+}
+
+section img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+}
+
+aside nav{
+	font-size: 17px;
+	font-family: helvetica;
+	color:white;
+	text-decoration: none;
+}
+
+
+
+
+
+
+footer{
+	clear: both;
+	color: gray;
+	font-family: helvetica;
+	font-size: 12px;
+	background-color: white;
+	height:20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+
+footer p{
+	display: inline-block;
+	padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

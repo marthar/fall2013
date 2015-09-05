@@ -1,0 +1,939 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* END RESET*/
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;margin:0.67em 0;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:bold;}dfn{font-style:italic;}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em;}pre{white-space:pre-wrap;}q{quotes:"\201C" "\201D" "\2018" "\2019";}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-0.5em;}sub{bottom:-0.25em;}img{border:0;}svg:not(:root){overflow:hidden;}figure{margin:0;}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;}legend{border:0;padding:0;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,select{text-transform:none;}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}button[disabled],html input[disabled]{cursor:default;}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}
+
+
+
+
+
+
+body{
+background-color:white;
+}
+
+
+
+
+
+
+
+
+
+
+/* HAMBURGER*/
+html {
+    overflow-y: scroll;
+}
+
+/*
+Setup a basic body
+*/
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*
+Header is relative so z-index: 1 guarantees always displayed on top
+*/
+
+.amor-header{
+    width: 200px;
+    padding-top: 5px;
+    float: left;
+    padding-left: 5px;
+}
+
+#container{
+    margin: 0 auto;
+    width: 100%;
+}
+header {
+    margin: 0 auto;
+    background-color: rgb(54, 81, 100);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    z-index: 4;
+
+    
+}
+
+/*
+Style the header menu
+*/
+
+
+header ul li {
+    display: block;
+    float: left;
+    padding: 7px 0px 0px 80px;
+}
+
+header ul li a{
+    text-align: center;
+
+}
+
+header ul li .blue{
+    font-size: .8em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: helvetica;
+    color: rgb(68, 162, 222);
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+header ul .white {
+    text-transform: uppercase;
+    float: left;
+    font-size: .8em;
+    font-weight: 500;
+    font-family: helvetica;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+
+ul.menu-container{
+    position: absolute;
+    width:500px;
+    height:30px;
+    right: 5px;
+}
+
+
+
+
+/* *******************START SLIDER************************/
+.banner { position: relative; overflow: auto; }
+    .banner li { list-style: none;}
+        .banner ul li { float: left; }
+
+.banner ul li h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top:200px;
+    left: 10px;
+}
+
+.banner ul li p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top:250px;
+    left: 10px;
+}
+
+.fixed{
+    position: fixed;
+    height: auto;
+    width: auto;
+
+}
+
+.move{
+    
+    position: relative;
+    top:580px;
+    left: 0px;
+}
+
+
+.headline{
+    padding-top: 3px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(54, 81, 100);
+}
+
+.headline h1{
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-weight: 100;
+    font-family: helvetica;
+
+}
+/*---------------*/
+/***** Sadie *****/
+/*---------------*/
+
+figure.effect-sadie figcaption{
+    
+    
+    
+}
+
+figure.effect-sadie h2 {
+    position: absolute;
+    top: 0%;
+    left:50%;
+    padding-right: 8%;
+    transform:translateX(-50%);
+    width: 100%;
+    color: white;
+    font-size: 1em;
+    background-color: rgba(54, 81, 100, .8);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 100;
+    
+}
+
+
+
+#content{
+    padding-top: 50px;
+}
+
+
+
+/*%^&*(&^$%&*()) END SLIDER*!@#$%^&*(((&&^%$##@@!$%^&*(^%$##@$%^&/
+
+
+
+
+
+/****************** start text on image************************/
+
+
+.gridbanner figure div{
+    position: absolute;
+    display: block;
+    top:50%;
+    left:1%;
+}
+
+.amor{
+    width: 50%;
+}
+
+
+.gridbanner figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    
+    text-align: center;
+    cursor: pointer;
+}
+
+.gridbanner figure .imgbanner {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.grid figure img {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+}
+
+.grid figure:hover {
+    opacity: .9;
+}
+.grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 50%;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.grid:hover {
+    
+    opacity: 1.0;
+}
+
+.grid figure figcaption {
+    padding: 2.5em;
+    color: #fff;
+    text-transform: none;
+    font-size: 1em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+    pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+
+   
+    font-size: 0;
+    opacity: 0;
+}
+
+.grid figure h2 {
+
+
+    font-weight: 100;
+}
+
+.grid figure h2 span {
+    font-weight: 900;
+}
+
+.grid figure h3 span {
+    font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+    margin: 0;
+}
+
+.grid figure p {
+    
+    
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+
+
+
+.grid2 figure img {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+}
+
+
+.grid2 figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 50%;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+.grid2 figure figcaption {
+    padding: 2.5em;
+    color: #fff;
+    text-transform: none;
+    font-size: 1em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.grid2 figure figcaption::before,
+.grid2 figure figcaption::after {
+    pointer-events: none;
+}
+
+.grid2 figure figcaption,
+.grid2 figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid2 figure figcaption > a {
+
+   
+    font-size: 0;
+    opacity: 0;
+}
+
+.grid2 figure h2 {
+
+
+    font-weight: 100;
+}
+
+
+
+.grid2 figure h2,
+.grid2 figure p {
+    margin: 0;
+}
+
+.grid2 figure p {
+    
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+
+
+
+
+/*---------------*/
+/***** Sarah *****/
+/*---------------*/
+
+figure.text {
+    background: #42b078;
+}
+
+figure.text img {
+    max-width: none;
+    width: -webkit-calc(100% + 20px);
+    width: calc(100% + 20px);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-10px,0,0);
+    transform: translate3d(-10px,0,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+figure.text:hover img {
+    opacity: 0.4;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+figure.text figcaption {
+    text-align: left;
+}
+
+figure.text h2 {
+    font-size: 1.3em;
+    position: relative;
+    overflow: hidden;
+    padding: 0.5em 0;
+}
+
+figure.text h2::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    content: '';
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+}
+
+figure.text:hover h2::after {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+figure.text p {
+    padding: 1em 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+}
+
+figure.text:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+
+
+
+
+/* Start Home Body*/
+
+
+
+#articles{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top:70px;
+    height: 50%;
+    padding-bottom: 2%;
+
+}
+
+#articles a img{
+
+    
+    display: inline-block;
+    margin:-2px;
+    max-width: 50%;
+
+}
+
+#articles img{
+    opacity: 0.8;
+}
+
+#articles img:hover{
+    opacity: 1.0;
+
+
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+
+  display: table;
+
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 50%;
+}
+ 
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+
+/* 500 day honeymoon page */
+
+
+section .top{
+    max-width:100%;
+}
+
+
+.500day-image{
+    position: relative;
+    height: auto;
+}
+
+.float-honeymoon-textbox{
+    position: absolute;
+    top:25%;
+    right: 10%;
+    width: 35%;
+
+}
+
+
+section .float-honeymoon-textbox p{
+    font-family: helvetica;
+    font-size: 1em;
+    color: rgba(54, 81, 100, 10);
+
+}
+
+section .float-honeymoon-textbox h3{
+    font-size: 2em;
+    font-family: helvetica;
+    font-weight: 900;
+    color:rgba(54, 81, 100, .8);
+}
+
+
+
+.section-float p{
+    
+    font-family: helvetica;
+    font-size: 1em;
+    color: rgba(54, 81, 100, 10);
+    line-height: 1.4;
+}
+
+.section-float p span{
+    font-family: helvetica;
+    font-size: 1em;
+    color: rgba(9, 25, 51, 10);
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.section-float h3{
+   
+    font-size: 2em;
+    font-family: helvetica;
+    font-weight: 900;
+    color:rgba(54, 81, 100, .8);
+}
+
+.section-float .img{
+   
+    width: 100%;
+}
+
+.section-float{
+    width: 50%;
+   
+}
+
+.section-float{
+padding: 10% 16% 16% 16%;
+    float: right;
+    position: relative;
+    height: auto;
+}
+
+.image-larger{
+position: relative;
+margin-left: -68%;
+    width: 130%;
+    z-index: 1;
+}
+
+.image-larger2{
+position: relative;
+margin-left: -68%;
+    width: 120%;
+    z-index: 1;
+}
+
+.image-right{
+position: relative;
+width: 132%;
+margin-left: 0%;
+
+    z-index: 1;
+}
+
+.section-float div h1{
+    font-family: helvetica;
+    font-size: 1.6em;
+    color: rgb(35, 118, 183);
+    position: absolute;
+left: -10%;
+top: auto;
+text-align: right;
+line-height: 1.4;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 160%;
+    height: 100px;
+    background-color: rgba(54, 81, 100, .8);
+    position: absolute;
+left: -22%;
+    bottom:0;
+}
+
+footer div img{
+    width: 15%;
+    margin: 0 auto;
+    position: absolute;
+    top:25%;
+    left: 32%;
+}
+
+footer h4{
+    text-align: center;
+    font-family: helvetica;
+    font-size: 1em;
+    font-weight: 100;
+    color: white;
+    position: absolute;
+    top:65%;
+    left: 25%;
+    color:rgb(183, 206, 243);
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width: 1590px) {
+
+.move{
+    
+    top:500px;
+   
+}
+
+
+figure.text h2{
+    font-size: 1.2em;
+}
+
+
+}
+
+
+
+@media (max-width: 1375px) {
+
+.move{
+    
+    top:450px;
+   
+}  }
+
+
+@media (max-width: 1255px) {
+
+.move{
+    
+    top:425px;
+   
+}  }
+
+@media (max-width: 1190px) {
+
+.move{
+    
+    top:400px;
+   
+}  }
+
+
+@media (max-width: 1130px) {
+
+.move{
+    
+    top:370px;
+   } 
+
+.grid2 figure p {
+    
+    
+    letter-spacing: 1px;
+    font-size: .8em;
+}
+
+ }
+
+@media (max-width: 1050px) {
+
+.move{
+    
+    top:340px;
+   } 
+
+
+ }
+
+
+@media (max-width: 978px) {
+
+.move{
+    
+    top:300px;
+   } 
+
+
+ }
+
+@media (max-width: 874px) {
+
+.move{
+    
+    top:270px;
+   } 
+
+.grid2 figure {
+    
+    width: 100%;
+}
+
+.grid2 figure p {
+    
+    
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+ }
+
+
+@media (max-width: 800px) {
+
+.move{
+    
+    top:240px;
+   } 
+
+
+ }
+
+
+@media (max-width: 725px) {
+
+.move{
+    
+    top:200px;
+   } 
+
+   .amor-header{
+
+    float: none;
+
+}
+
+
+header {
+    
+    height: 50px;
+}
+
+ul.menu-container{
+    position: absolute;
+    width:500px;
+    height:30px;
+    left: 17px;
+}
+
+header ul li {
+    display: block;
+    float: left;
+    padding: 7px 80px 0px 0px;
+}
+
+ }
+
+
+@media (max-width: 625px) {
+
+.move{
+    
+    top:160px;
+   } 
+
+
+ }
+
+
+@media (max-width: 525px) {
+
+.move{
+    
+    top:100px;
+   } 
+
+.grid2 figure p {
+    
+    display: none;
+}
+
+
+
+
+ }
+
+
+@media (max-width: 425px) {
+
+header ul li {
+
+    padding: 7px 50px 0px 0px;
+}
+
+
+ }
+
+
+
+
+
+
+
+
+

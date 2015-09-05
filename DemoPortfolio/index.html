@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>JQuery Portfolio - jQuery plugin for a slick and modern portfolio</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="portfolio.jquery.css">
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="portfolio.jquery.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('.thumbs').portfolio({
+                    cols: 4,
+                    transition: 'slideDown'
+                });
+            });
+        </script>
+        <style>
+            body {
+                font-family: arial;
+            }
+            hr {
+                margin-bottom: 40px;
+            }
+            h1 {
+
+                margin-bottom: 0px;
+                margin-top: 30px;
+            }
+            h3 {
+                margin-top: 10px;
+                font-weight: normal;
+                color: #a6a6a6;
+            }
+            p {
+            
+                line-height: 25px;
+            }
+            a.button {
+                text-decoration: none;
+            }
+            .button {
+                padding: 14px 22px;
+                background-color: #cecece;
+                color: #333333;
+                border-radius: 3px;
+                margin-bottom: 20px;
+                display: inline-block;
+            }
+            .button:hover {
+                background-color: #e1e1e1;
+            }
+            .thumbs {
+            
+                display: block;
+            }
+            .footer {
+                display: block;
+                width: 100%;
+                margin-top: 50px;
+                margin-bottom: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>Julia Paranay's Portfolio Website</h1>
+            <h3>Graphic Designer living, studying, and working in the Boston area.</h3>
+        </center>
+        <ul class="thumbs">
+            <li><a href="#thumb1" class="thumbnail" style="background-image: url('images/thumb1.jpg')">
+                <span class="description">100 Things Visual Database</span></a>
+            </li>
+            <li>
+                <a href="#thumb2" class="thumbnail" style="background-image: url('images/thumb2.jpg')"><span class="description">Harry Houdini Wooden Monument</span></a>
+            </li>
+            <li>
+                <a href="#thumb3" class="thumbnail" style="background-image: url('images/thumb3.jpg')"><span class="description">Panic At The Disco Complete Box Set</span></a>
+            </li>
+            <li>
+                <a href="#thumb4" class="thumbnail" style="background-image: url('images/thumb4.jpg')"><span class="description">Enya Music Poster</span></a>
+            </li>
+            <li>
+                <a href="#thumb5" class="thumbnail" style="background-image: url('images/thumb5.jpg')"><span class="description">Wedding Cake Box Display</span></a>
+            </li>
+            <li>
+                <a href="#thumb6" class="thumbnail" style="background-image: url('images/thumb6.jpg')"><span class="description">10 Things Every Celiac Should Know</span></a>
+            </li>
+            <li>
+                <a href="#thumb7" class="thumbnail" style="background-image: url('images/thumb7.jpg')"><span class="description">The Elements of Style Redesign</span></a>
+            </li>
+            <li>
+                <a href="#thumb8" class="thumbnail" style="background-image: url('images/thumb8.jpg')"><span class="description">Lemon Recipe Cards and Display</span></a>
+            </li>
+            <li>
+                <a href="#thumb9" class="thumbnail" style="background-image: url('images/thumb9.jpg')"><span class="description">I Like Words Book</span></a>
+            </li>
+            <li>
+                <a href="#thumb10" class="thumbnail" style="background-image: url('images/thumb10.jpg')"><span class="description">Onomatopoeia Animation</span></a>
+            </li>
+            <li>
+                <a href="#thumb11" class="thumbnail" style="background-image: url('images/thumb11.jpg')"><span class="description">Understanding Credit Score Game</span></a>
+            </li>
+            <li>
+                <a href="#thumb12" class="thumbnail" style="background-image: url('images/thumb12.jpg')"><span class="description">First Things First Posters </span></a>
+            </li>
+        </ul>
+
+        <div class="portfolio-content">
+            <div id="thumb1">
+                <div class="media"><img src="images/thumb1.jpg"/></div>
+                <h1>100 Things</h1>
+                <p>In my free time, one of my favorite things to do is watch movies. For my infographic, I chose to visually organize the first 100 movies I could remember into 7 categories. The categories were based on my personal impression of the movies. Someone viewing my infographic can choose a movie based on the information given through my database.</p>
+            
+            </div>
+
+            <div id="thumb2">
+                <div class="media"><img src="images/thumb2.jpg"/></div>
+                <h1>SEO</h1>
+                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Integer a posuere tortor. Praesent malesuada mauris massa, non blandit neque tempus nec. Quisque fermentum nunc non hendrerit tempus.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+
+            <div id="thumb3">
+                <div class="media"><img src="images/thumb3.jpg"/></div>
+                <h1>Web design</h1>
+                <p>Ut condimentum eros bibendum metus lacinia, ac condimentum justo faucibus. Nam nec dui convallis, sodales sapien in, gravida justo. Pellentesque pulvinar massa a nisl iaculis, quis iaculis elit tincidunt.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+
+            <div id="thumb4">
+                <div class="media"><img src="images/thumb4.jpg"/></div>
+                <h1>Project management</h1>
+                <p>Suspendisse cursus commodo elit, at tempus felis hendrerit vel. Cras condimentum aliquam mauris at blandit. Pellentesque ac velit iaculis, lobortis nibh id, ultricies ante. Fusce vel urna justo. Maecenas rhoncus vel ligula eget feugiat. Maecenas blandit risus eros, vel imperdiet augue dapibus vitae.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+
+            <div id="thumb5">
+                <div class="media"><img src="images/thumb5.jpg"/></div>
+                <h1>Graphic design</h1>
+                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+
+            <div id="thumb5">
+                <div class="media"><img src="images/thumb5.jpg"/></div>
+                <h1>Graphic design</h1>
+                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+
+            <div id="thumb5">
+                <div class="media"><img src="images/thumb5.jpg"/></div>
+                <h1>Graphic design</h1>
+                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+
+            <div id="thumb5">
+                <div class="media"><img src="images/thumb5.jpg"/></div>
+                <h1>Graphic design</h1>
+                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+
+            <div id="thumb6">
+                <div class="media"><img src="images/thumb6.jpg"/></div>
+                <h1>Graphic design</h1>
+                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+
+            <div id="thumb7">
+                <div class="media"><img src="images/thumb7.jpg"/></div>
+                <h1>Graphic design</h1>
+                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+
+            <div id="thumb8">
+                <div class="media"><img src="images/thumb8.jpg"/></div>
+                <h1>Graphic design</h1>
+                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+
+            <div id="thumb9">
+                <div class="media"><img src="images/thumb9.jpg"/></div>
+                <h1>Graphic design</h1>
+                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+
+            <div id="thumb10">
+                <div class="media"><img src="images/thumb10.jpg"/></div>
+                <h1>Graphic design</h1>
+                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+
+            <div id="thumb11">
+                <div class="media"><img src="images/thumb11.jpg"/></div>
+                <h1>Graphic design</h1>
+                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+
+            <div id="thumb12">
+                <div class="media"><img src="images/thumb12.jpg"/></div>
+                <h1>Graphic design</h1>
+                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+
+        </div>
+        <center class="footer">
+            by Julia Paranay
+        </center>
+    </body>
+</html>

@@ -1,0 +1,456 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Add Styles Here */
+
+
+
+.whole_body{
+    position:absolute;
+   
+}
+
+
+/* Define the keyframe */
+@-webkit-keyframes walking {
+   0% { -webkit-transform: translate(1600px, 100px)scale(.5);
+    }
+   50%  { -webkit-transform: translate(500px, 100px)scale(1.5);
+   }
+   100% {  -webkit-transform: translate(-800px, 100px) scale(2);
+    }
+}
+
+/* This is the element that we apply the animation to. */
+
+.whole_body {
+  -webkit-animation: walking 10s linear 1s infinite ;
+  -webkit-transform-origin: 50% 0;
+}  
+
+
+
+
+
+.whole_body:hover {
+  -webkit-animation-play-state: paused;
+    background-color: #014a2a;
+}  
+            
+
+
+
+.head{
+position:absolute;
+top:40px;
+left:40px;
+}
+
+.hair{
+    background: black;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:10px;
+    left:90px;
+    text-align: center;
+    z-index:-1;
+}
+.hair:before, .hair:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: 150px;
+    background: black;
+}
+.hair:before {
+    -webkit-transform: rotate(30deg);
+       -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+         -o-transform: rotate(30deg);
+}
+.hair:after {
+    -webkit-transform: rotate(60deg);
+       -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+         -o-transform: rotate(60deg);
+}
+
+
+
+
+.face{
+	position:absolute;
+        left:78px;
+        top:0px;
+        height:200px;
+        width:170px;
+        border-radius:90px 90px 90px 90px;
+        background-color: teal;
+        border:3px solid black;
+
+
+}
+
+
+.eyebrow{
+	position:absolute;
+        top:45px;
+        left:70px;
+        width:120px;
+        height:20px;
+	background-color:transparent;
+        border-bottom:15px solid black;
+        
+        border-radius:20px 20px 20px 20px;
+
+}
+        
+
+
+
+.smile{
+	position:absolute;
+        top:140px;
+        left:100px;
+        width:50px;
+        height:30px;
+        border-bottom:5px solid black;
+        border-radius:100%
+}
+
+.smile:after{
+	content:"";
+        position:absolute;
+        background-color:red;
+        top:30px;
+        left:30px;
+        width:10px;
+        height:20px;
+        border-radius:10px 10px 90px 90px;
+        border-bottom:2px solid black;
+        border-right:2px solid black;
+        border-left:2px solid black;
+        -webkit-transform: rotate(-30deg);
+        }
+
+
+        
+/* Define the keyframe */
+@-webkit-keyframes lick {
+   0% { -webkit-transform: translate(0); height:0px;}
+   50%  { -webkit-transform: translate(0); height:10px; }
+   100% {  -webkit-transform: height:20px; }
+}
+
+/* This is the element that we apply the animation to. */
+
+.smile:after {
+  -webkit-animation: lick 4s linear 1s 1;
+  -webkit-transform-origin: 50% 0;
+}     
+
+
+
+   
+
+
+
+.eye{
+	position:absolute;
+        left:70px;
+        top:70px;
+        height:70px;
+        width:65px;
+        border-radius:80%;
+        background-color: white;
+        border:3px solid black;
+        }
+        
+ .eye:after{
+ 	content:"";
+	position:absolute;
+        left:59px;
+        top:-3px;
+        height:70px;
+        width:65px;
+        border-radius:80%;
+        background-color: white;
+        border:3px solid black;
+        }
+.eyeball{
+    position:absolute;
+        left:85px;
+        top:90px;
+        height:20px;
+        width:15px;
+        border-radius:100%;
+        background-color: black;
+        
+}
+
+/* Define the keyframe */
+@-webkit-keyframes bounce2 {
+   0% { -webkit-transform: translate(-10px, 20px);
+    background-color:red;}
+   50%  { -webkit-transform: translate(10deg);
+   background-color:purple; }
+   100% {  -webkit-transform: translate(15px, 10px);
+   background-color:blue;  }
+}
+
+/* This is the element that we apply the animation to. */
+
+.eyeball {
+  -webkit-animation: bounce2 1s linear 1s infinite alternate;
+  -webkit-transform-origin: 50% 0;
+}  
+
+
+.eyeball:hover {
+  -webkit-animation-play-state: paused;
+    background-color: black;
+}  
+            
+
+            
+
+
+
+
+.eyeball:after{
+    content:"";
+    position:absolute;
+        left:60px;
+        top:0px;
+        height:20px;
+        width:15px;
+        border-radius:100%;
+        background-color: black;
+}
+
+/* Define the keyframe */
+@-webkit-keyframes bounce {
+   0% { -webkit-transform: translate(15px, -10px);
+   background-color:red;}
+   50%  { -webkit-transform: translate(-3px, 10px);
+   background-color:purple; }
+   100% {  -webkit-transform: translate(5px, -3px);
+   background-color:blue;
+    }
+}
+
+/* This is the element that we apply the animation to. */
+
+.eyeball:after {
+  -webkit-animation: bounce 1s linear 1s infinite alternate;
+  -webkit-transform-origin: 50% 0;
+}  
+
+.eyeball:after:hover {
+  -webkit-animation-play-state: paused;
+    background-color: black;
+}  
+
+
+
+
+
+.arm{
+	width:30px;
+        height:60px;
+        background-color:teal;
+        border-radius:0px 0px 90px 90px;
+        border-right:3px solid black;
+        border-left:3px solid black;
+        border-bottom:3px solid black;
+        position:absolute;
+        top:200px;
+        left:230px;
+        -webkit-transform: rotate(-35deg);
+        }
+               
+/* Define the keyframe */
+@-webkit-keyframes move {
+   0% { -webkit-transform: rotate(25deg);}
+   50%  { -webkit-transform: rotate(0deg); }
+   100% {  -webkit-transform: rotate(-25deg); }
+}
+
+/* This is the element that we apply the animation to. */
+
+.arm {
+  -webkit-animation: move 1s linear 1s infinite alternate;
+  -webkit-transform-origin: 50% 0;
+}  
+
+.arm:hover {
+  -webkit-animation-play-state: paused;
+    
+}  
+
+
+
+
+.arm2{
+	width:30px;
+        height:60px;
+        background-color:teal;
+        border-radius:0px 0px 90px 90px;
+        border-right:3px solid black;
+        border-left:3px solid black;
+        border-bottom:3px solid black;
+        position:absolute;
+        top:200px;
+        left:140px;
+        -webkit-transform: rotate(25deg);
+        z-index:-2;
+        }
+        
+    /* Define the keyframe */
+@-webkit-keyframes move2 {
+   0% { -webkit-transform: rotate(-25deg);}
+   50%  { -webkit-transform: rotate(0deg); }
+   100% {  -webkit-transform: rotate(25deg); }
+}
+
+/* This is the element that we apply the animation to. */
+
+.arm2 {
+  -webkit-animation: move2 1s linear 1s infinite alternate;
+  -webkit-transform-origin: 50% 0;
+}  
+
+
+.arm2:hover {
+  -webkit-animation-play-state: paused;
+    
+}  
+
+
+
+.leg{
+	width:30px;
+        height:100px;
+        background-color:teal;
+        border-radius:0px 0px 90px 90px;
+        border-right:3px solid black;
+        border-left:3px solid black;
+        border-bottom:20px solid black;
+        position:absolute;
+        top:230px;
+        left:165px;
+        -webkit-transform: rotate(10deg);
+        z-index:-2;
+}
+        
+.leg2{
+	width:30px;
+        height:100px;
+        background-color:teal;
+        border-radius:0px 0px 90px 90px;
+        border-right:3px solid black;
+        border-left:3px solid black;
+        border-bottom:20px solid black;
+        position:absolute;
+        top:230px;
+        left:200px;
+        -webkit-transform: rotate(-10deg);
+        z-index:-2;
+}        
+        
+        
+        
+/* Define the keyframe */
+@-webkit-keyframes walk {
+   0% { -webkit-transform: rotate(25deg);}
+   50%  { -webkit-transform: rotate(0deg); }
+   100% {  -webkit-transform: rotate(-25deg); }
+}
+
+/* This is the element that we apply the animation to. */
+
+.leg {
+  -webkit-animation: walk 1s linear 1s infinite alternate;
+  -webkit-transform-origin: 50% 0;
+}        
+        
+.leg:hover {
+  -webkit-animation-play-state: paused;
+    
+}  
+
+        
+        
+/* Define the keyframe */
+@-webkit-keyframes walkright {
+   0% { -webkit-transform: rotate(-25deg);}
+   50%  { -webkit-transform: rotate(0deg); }
+   100% {  -webkit-transform: rotate(25deg); }
+}
+
+/* This is the element that we apply the animation to. */
+
+.leg2 {
+  -webkit-animation: walkright 1s linear 1s infinite alternate;
+  -webkit-transform-origin: 50% 0;
+}        
+        
+       
+.leg2:hover {
+  -webkit-animation-play-state: paused;
+    
+}   
+        
+        
+        
+        
+

@@ -53,4 +53,122 @@ table {
 
 /* END RESET */
 
+header{
+	position: relative;
+	height: 50px;
+}
+h1{	position: absolute;
+	top: 0px;
+	left:260px;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: Helvetica;
+}
+h2{ 
+	position: absolute;
+	top:75px;
+	left: 20px;
+	text-align: right;
+	width: 200px;
+	margin: 0px 0px 20px 0px;
+	font-size: 14px;
+	font-family: Helvetica;
+}
+section{
+	position: relative;
+	height: 100px;
+}
+#article-1{
+	position: absolute;
+	top: 100px;
+	left:10px;
+	font-family: Helvetica;
+	font-size: 14px;
+	width: 450px;
+	padding: 1px;
+	margin: 0px 2px 5px 2px;
+}
+#article-2{
+	position: absolute;
+	top: 100px;
+	left:430px;
+	font-family: Helvetica;
+	font-size: 14px;
+	width: 410px;
+	padding: 1px;
+	margin: 0px 2px 5px 2px;
+}
+
+
+article nav{
+	text-align: center;
+}
+
+img{
+	position: absolute;
+	top: 350px;
+	left: 0px;
+	clear: both;
+	padding: 30px;
+	margin: 40px;
+	width: 700px;
+}
+
+.page {
+	position:absolute;
+	top:400px;
+	left:430px;
+	text-decoration: none;
+}
+
+
+#ingredients{
+	float: left;
+	text-align: right;
+	padding-left: 50px;
+	width:160px;
+	padding-right: 0px
+}
+
+#numbers{
+	float:left;
+	padding-left: 10px;
+	padding-right: 0px;
+	font-weight: bold;
+}
+
+
+#how-much{
+	float:left;
+	text-align: left;
+	padding-left: 10px
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

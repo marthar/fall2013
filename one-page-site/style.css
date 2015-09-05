@@ -1,0 +1,493 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Add Styles Here */
+
+@font-face
+{
+font-family: 'Quicksand-Regular';
+src: url(Quicksand-Regular.otf);
+}
+
+
+/* Header */
+
+header{
+	position: relative;
+	height: 160px;
+	background-color: rgb(174, 72, 120);
+	width: 100%;
+}
+
+header h1 {
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
+	font-size: 3em;
+	top:-50px;
+	position: absolute;
+	color: white;
+
+
+}
+
+header h2 {
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
+	font-size: 7em;
+	
+	position: absolute;
+	color:white;
+	position: absolute;
+	top:-55px;
+	left:200px;
+	
+	
+}
+
+.border{
+	height: 10%;
+	border-bottom: 2px solid black;
+}
+
+
+.images{
+	text-align: center;
+}
+
+.logo{
+	position:absolute;
+	top:100px;
+	left:15%;
+	width: 100%;
+
+
+
+}
+
+
+.overlay {
+  display: none;
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  background-color:black;
+  opacity:0.5;
+}
+
+.details {
+
+  display: none;
+  position:fixed;
+  left:0px;
+  right:0px;
+  top:0px;
+  bottom:0px;
+  margin:auto;
+  width:80%;
+  height:80%;
+  background-color:white;
+  padding:5% 5%;
+  border-radius:0px;
+}
+
+#quan{
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
+	
+
+}
+
+#detail-price{
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
+
+}
+
+#detail-quantity{
+	cursor:pointer;
+	color:black;
+	padding: 20px;
+	margin-bottom: 5px;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;	
+}
+
+.details img{
+
+	width: 100%;
+}
+
+#center-title{
+	width: 40%;
+
+	text-align: center;
+}
+
+#detail-title {
+
+  font-size:30px;
+  font-family: 'Quicksand-Regular', helvetica, sans-serif;
+}
+
+#detail-image {
+
+  float:left;
+  
+  padding:5px;
+}
+
+header div{
+	float: left;
+}
+
+header #cart{
+	width:140px;
+	position: absolute;
+	top:115px;
+	right: 195px;
+	padding: 10px;
+	margin: 2px;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
+	cursor: pointer;
+}
+
+#add-to-cart{
+	cursor: pointer;
+}
+
+#cart p{
+	cursor: pointer;
+}
+
+#float{
+	float: left;
+	width: 45%;
+}
+
+
+#detail-description{
+  font-family: 'Quicksand-Regular', helvetica, sans-serif;
+  font-size: .9em;
+  width:100%;
+  padding-top:40px;
+  padding-left:5%;
+  line-height: 20px;
+}
+
+#detail-price {
+  font-size:24px;
+  font-weight:bold;
+  float: left;
+
+}
+
+#cart2{
+	padding-left: 5%;
+	padding-top: 1%;
+
+}
+
+#detail-options {
+	padding-top: 100px;
+
+  text-align:right;
+}
+
+#add-to-cart{
+	width:120px;
+	padding: 5px;
+	margin: 2px;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+
+}
+
+
+.about{
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
+	font-size: .9em;
+	position: absolute;
+	top:200px;
+	left: 15%;
+	width: 35%;
+	height: 300px;
+	line-height: 20px;
+}
+
+.nav {
+	
+	position: absolute;
+	top:240px;
+	left: 60%;
+	
+
+}
+
+.bottom-nav {
+	
+	padding-top: 25px;
+	clear: both;
+	padding-left: 60%;
+	height: 80px;
+	
+
+}
+
+header{
+	padding-top: 20px;
+}
+
+
+
+li{
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
+	float:left;
+	padding-right: 30px;
+	
+}
+
+
+
+.main-page article img {
+	padding-left: 1%;
+	padding-right: 1%;
+	width: 100%;
+
+
+
+}
+
+.main-page{
+	
+}
+
+
+.images{
+	cursor:pointer;
+	float: left;
+	width: 32%;
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
+	line-height: 20px;
+	font-weight: bold;
+	padding-bottom: 2%;
+}
+.images:hover img {
+  opacity: .8;
+}
+
+
+
+.earrings{
+	padding-bottom: 100px;
+	padding-top: 150px;
+	padding-right: 10%;
+	padding-left: 10%;
+
+}
+
+
+
+
+
+
+
+footer{
+	background-color: rgb(174, 72, 120);
+	clear: both;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+
+}
+
+footer h5{
+	font-size: 1em;
+	font-style: bold;
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
+	color: white;
+}
+footer p{
+	font-size: .9em;
+	font-family: 'Quicksand-Regular', helvetica, sans-serif;
+	font-weight: normal;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.images2{
+	width: 40%;
+	padding-top: 10%;
+	padding-left: 10%;
+
+}
+
+.words{
+	position: absolute;
+	top: 400px;
+	left: 60%;
+	font-family: helvetica;
+	font-size: 2em;
+	letter-spacing: 1px;
+	line-height: 40px;
+}
+
+.words2{
+	position: absolute;
+	top: 500px;
+	left: 60%;
+	font-family: helvetica;
+	font-size: .9em;
+	line-height: 20px;
+	width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

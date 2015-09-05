@@ -32,6 +32,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	position: relative; 
+    margin:80px; 
+    height:90px; 
 	line-height: 1;
 }
 ol, ul {
@@ -49,4 +52,173 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* end reset */
+
+#site-header h1 a {
+ display:block;  
+ width:300px; 
+ height:80px;  
+ background:url(images/logo.png) no-repeat top left; 
+ text-indent:-9999px;
+ }
+
+body {
+	margin:0 auto;
+	width:100%;
+}
+
+#top-nav{
+	position:absolute;
+	top:0px;
+	left:700px;
+	background-color:beige;
+}
+
+#site-wrapper{
+	position:relative;
+	height:120px;
+	background-color:beige;
+	width:100%;
+	}
+
+
+
+#site-header h1 a {
+text-indent:-9999px;
+width:300px; height:120px;
+background:url (logo.png) no-repeat left top;
+background-color: beige;
+}
+
+
+
+header {
+	position:relative;
+	top:0px;
+	left:220px;
+
+}
+
+#content {
+	clear:left;
+	width:960px;
+}
+
+
+
+
+#main-menu ul {
+	padding-left: 200px;
+}
+
+#main-menu li {
+	float:left;
+	padding: 20px;
+
+}
+
+#menu-wrapper{
+	width:100%;
+	background-color:rgb(107, 68, 29);
+}
+
+#main-menu li a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: helvetica;
+	font-size: 12px;
+}
+
+#main-menu {
+
+	width:960px;
+	height:55px;
+	background-color:rgb(107, 68, 29);
+}	
+
+
+
+
+
+
+
+
+#content-wrapper{
+	position:relative;
+	height:550px;
+}
+
+#page {
+	float:left;
+	width: 400px;
+	padding:10px 10px 10px 210px;
+
+
+}
+#sidebar {
+	float:left;
+	width: 200px;
+	padding:10px 10px 10px 90px;
+	
+}
+article{float:left;
+	width:400px;
+	padding: 10px;
+	margin: 10px;
+
+}
+
+p{
+	font-family: helvetica;
+	font-size: 14px;
+	
+}
+h1{
+	padding-bottom: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: helvetica;
+	color:rgb(107, 68, 29);
+	text-transform: uppercase;
+}
+h2{	font-size: 20px;
+	font-weight: bold;
+	font-family: helvetica;
+	color:rgb(107, 68, 29);
+}
+h3{	font-size: 15px;
+	font-weight: bold;
+	font-family: helvetica;
+	color:beige;
+	padding: 10px 10px 10px 0px;
+	text-transform: uppercase;
+}
+
+#footer-wrapper{
+	position:relative;
+	clear: both;
+	height:150px;
+	background-color:#4f3a11;
+	}
+
+#footer-follow li{
+	float:left;
+}
+#footer-follow{
+position: absolute;
+	top:10px;
+	left:800px;
+	color: white;
+	}
+
+#footer-contact{
+	position:absolute;
+	top:10px;
+	left:220px;
+	width: 170px;
+	color: white;
+}
+
+/*changes made*/
 
